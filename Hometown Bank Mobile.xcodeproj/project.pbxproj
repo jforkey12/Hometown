@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F113211A158FDFA500313A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1132119158FDFA500313A96 /* UIKit.framework */; };
+		F113211C158FDFA500313A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113211B158FDFA500313A96 /* Foundation.framework */; };
+		F113211E158FDFA500313A96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113211D158FDFA500313A96 /* CoreGraphics.framework */; };
+		F1132124158FDFA500313A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1132122158FDFA500313A96 /* InfoPlist.strings */; };
+		F1132126158FDFA500313A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1132125158FDFA500313A96 /* main.m */; };
+		F113212A158FDFA500313A96 /* HometownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1132129158FDFA500313A96 /* HometownAppDelegate.m */; };
+		F1132132158FDFA500313A96 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1132131158FDFA500313A96 /* SenTestingKit.framework */; };
+		F1132133158FDFA500313A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1132119158FDFA500313A96 /* UIKit.framework */; };
+		F1132134158FDFA500313A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113211B158FDFA500313A96 /* Foundation.framework */; };
+		F113213C158FDFA500313A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F113213A158FDFA500313A96 /* InfoPlist.strings */; };
+		F113213F158FDFA500313A96 /* Hometown_Bank_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F113213E158FDFA500313A96 /* Hometown_Bank_MobileTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1132135158FDFA500313A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F113210C158FDFA500313A96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1132114158FDFA500313A96;
+			remoteInfo = "Hometown Bank Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1132115158FDFA500313A96 /* Hometown Bank Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hometown Bank Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1132119158FDFA500313A96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F113211B158FDFA500313A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F113211D158FDFA500313A96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1132121158FDFA500313A96 /* Hometown Bank Mobile-Info.plist */ = {isa = PBXFileReference; path = "Hometown Bank Mobile-Info.plist"; sourceTree = "<group>"; };
+		F1132123158FDFA500313A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1132125158FDFA500313A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1132127158FDFA500313A96 /* Hometown Bank Mobile-Prefix.pch */ = {isa = PBXFileReference; path = "Hometown Bank Mobile-Prefix.pch"; sourceTree = "<group>"; };
+		F1132128158FDFA500313A96 /* HometownAppDelegate.h */ = {isa = PBXFileReference; path = HometownAppDelegate.h; sourceTree = "<group>"; };
+		F1132129158FDFA500313A96 /* HometownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HometownAppDelegate.m; sourceTree = "<group>"; };
+		F1132130158FDFA500313A96 /* Hometown Bank MobileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hometown Bank MobileTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1132131158FDFA500313A96 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F1132139158FDFA500313A96 /* Hometown Bank MobileTests-Info.plist */ = {isa = PBXFileReference; path = "Hometown Bank MobileTests-Info.plist"; sourceTree = "<group>"; };
+		F113213B158FDFA500313A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F113213D158FDFA500313A96 /* Hometown_Bank_MobileTests.h */ = {isa = PBXFileReference; path = Hometown_Bank_MobileTests.h; sourceTree = "<group>"; };
+		F113213E158FDFA500313A96 /* Hometown_Bank_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hometown_Bank_MobileTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1132112158FDFA500313A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113211A158FDFA500313A96 /* UIKit.framework in Frameworks */,
+				F113211C158FDFA500313A96 /* Foundation.framework in Frameworks */,
+				F113211E158FDFA500313A96 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113212C158FDFA500313A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1132132158FDFA500313A96 /* SenTestingKit.framework in Frameworks */,
+				F1132133158FDFA500313A96 /* UIKit.framework in Frameworks */,
+				F1132134158FDFA500313A96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F113210A158FDFA500313A96 = {
+			isa = PBXGroup;
+			children = (
+				F113211F158FDFA500313A96 /* Hometown Bank Mobile */,
+				F1132137158FDFA500313A96 /* Hometown Bank MobileTests */,
+				F1132118158FDFA500313A96 /* Frameworks */,
+				F1132116158FDFA500313A96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1132116158FDFA500313A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1132115158FDFA500313A96 /* Hometown Bank Mobile.app */,
+				F1132130158FDFA500313A96 /* Hometown Bank MobileTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1132118158FDFA500313A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1132119158FDFA500313A96 /* UIKit.framework */,
+				F113211B158FDFA500313A96 /* Foundation.framework */,
+				F113211D158FDFA500313A96 /* CoreGraphics.framework */,
+				F1132131158FDFA500313A96 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F113211F158FDFA500313A96 /* Hometown Bank Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				F1132128158FDFA500313A96 /* HometownAppDelegate.h */,
+				F1132129158FDFA500313A96 /* HometownAppDelegate.m */,
+				F1132120158FDFA500313A96 /* Supporting Files */,
+			);
+			path = "Hometown Bank Mobile";
+			sourceTree = "<group>";
+		};
+		F1132120158FDFA500313A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1132121158FDFA500313A96 /* Hometown Bank Mobile-Info.plist */,
+				F1132122158FDFA500313A96 /* InfoPlist.strings */,
+				F1132125158FDFA500313A96 /* main.m */,
+				F1132127158FDFA500313A96 /* Hometown Bank Mobile-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1132137158FDFA500313A96 /* Hometown Bank MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				F113213D158FDFA500313A96 /* Hometown_Bank_MobileTests.h */,
+				F113213E158FDFA500313A96 /* Hometown_Bank_MobileTests.m */,
+				F1132138158FDFA500313A96 /* Supporting Files */,
+			);
+			path = "Hometown Bank MobileTests";
+			sourceTree = "<group>";
+		};
+		F1132138158FDFA500313A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1132139158FDFA500313A96 /* Hometown Bank MobileTests-Info.plist */,
+				F113213A158FDFA500313A96 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1132114158FDFA500313A96 /* Hometown Bank Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1132142158FDFA500313A96 /* Build configuration list for PBXNativeTarget "Hometown Bank Mobile" */;
+			buildPhases = (
+				F1132111158FDFA500313A96 /* Sources */,
+				F1132112158FDFA500313A96 /* Frameworks */,
+				F1132113158FDFA500313A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hometown Bank Mobile";
+			productName = "Hometown Bank Mobile";
+			productReference = F1132115158FDFA500313A96 /* Hometown Bank Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F113212F158FDFA500313A96 /* Hometown Bank MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1132145158FDFA500313A96 /* Build configuration list for PBXNativeTarget "Hometown Bank MobileTests" */;
+			buildPhases = (
+				F113212B158FDFA500313A96 /* Sources */,
+				F113212C158FDFA500313A96 /* Frameworks */,
+				F113212D158FDFA500313A96 /* Resources */,
+				F113212E158FDFA500313A96 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1132136158FDFA500313A96 /* PBXTargetDependency */,
+			);
+			name = "Hometown Bank MobileTests";
+			productName = "Hometown Bank MobileTests";
+			productReference = F1132130158FDFA500313A96 /* Hometown Bank MobileTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F113210C158FDFA500313A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Hometown;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Worcester State College";
+			};
+			buildConfigurationList = F113210F158FDFA500313A96 /* Build configuration list for PBXProject "Hometown Bank Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F113210A158FDFA500313A96;
+			productRefGroup = F1132116158FDFA500313A96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1132114158FDFA500313A96 /* Hometown Bank Mobile */,
+				F113212F158FDFA500313A96 /* Hometown Bank MobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1132113158FDFA500313A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1132124158FDFA500313A96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113212D158FDFA500313A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113213C158FDFA500313A96 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F113212E158FDFA500313A96 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1132111158FDFA500313A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1132126158FDFA500313A96 /* main.m in Sources */,
+				F113212A158FDFA500313A96 /* HometownAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F113212B158FDFA500313A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F113213F158FDFA500313A96 /* Hometown_Bank_MobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1132136158FDFA500313A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1132114158FDFA500313A96 /* Hometown Bank Mobile */;
+			targetProxy = F1132135158FDFA500313A96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1132122158FDFA500313A96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1132123158FDFA500313A96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F113213A158FDFA500313A96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F113213B158FDFA500313A96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1132140158FDFA500313A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1132141158FDFA500313A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1132143158FDFA500313A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1132144158FDFA500313A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1132146158FDFA500313A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hometown Bank Mobile.app/Hometown Bank Mobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Hometown Bank MobileTests/Hometown Bank MobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F1132147158FDFA500313A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hometown Bank Mobile.app/Hometown Bank Mobile";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
+				INFOPLIST_FILE = "Hometown Bank MobileTests/Hometown Bank MobileTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F113210F158FDFA500313A96 /* Build configuration list for PBXProject "Hometown Bank Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1132140158FDFA500313A96 /* Debug */,
+				F1132141158FDFA500313A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1132142158FDFA500313A96 /* Build configuration list for PBXNativeTarget "Hometown Bank Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1132143158FDFA500313A96 /* Debug */,
+				F1132144158FDFA500313A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1132145158FDFA500313A96 /* Build configuration list for PBXNativeTarget "Hometown Bank MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1132146158FDFA500313A96 /* Debug */,
+				F1132147158FDFA500313A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F113210C158FDFA500313A96 /* Project object */;
+}
