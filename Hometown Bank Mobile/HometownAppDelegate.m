@@ -1,8 +1,8 @@
 //
-//  HometownAppDelegate.m
-//  Hometown Bank Mobile
+//  VenueClassicAppDelegate.m
+//  VenueClassic
 //
-//  Created by James Forkey on 6/18/12.
+//  Created by James Forkey on 7/11/12.
 //  Copyright (c) 2012 Worcester State College. All rights reserved.
 //
 
@@ -14,10 +14,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

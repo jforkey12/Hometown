@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HometownAppDelegate : UIResponder <UIApplicationDelegate>
+@interface HometownAppDelegate : UIResponder <UIApplicationDelegate> {
 
-@property (strong, nonatomic) UIWindow *window;
+}
 
 @end

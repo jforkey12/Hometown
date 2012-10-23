@@ -12,12 +12,45 @@
 		F113211E158FDFA500313A96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113211D158FDFA500313A96 /* CoreGraphics.framework */; };
 		F1132124158FDFA500313A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1132122158FDFA500313A96 /* InfoPlist.strings */; };
 		F1132126158FDFA500313A96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1132125158FDFA500313A96 /* main.m */; };
-		F113212A158FDFA500313A96 /* HometownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1132129158FDFA500313A96 /* HometownAppDelegate.m */; };
 		F1132132158FDFA500313A96 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1132131158FDFA500313A96 /* SenTestingKit.framework */; };
 		F1132133158FDFA500313A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1132119158FDFA500313A96 /* UIKit.framework */; };
 		F1132134158FDFA500313A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113211B158FDFA500313A96 /* Foundation.framework */; };
 		F113213C158FDFA500313A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F113213A158FDFA500313A96 /* InfoPlist.strings */; };
 		F113213F158FDFA500313A96 /* Hometown_Bank_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F113213E158FDFA500313A96 /* Hometown_Bank_MobileTests.m */; };
+		F113214B158FEDE100313A96 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F113214A158FEDE100313A96 /* logo.png */; };
+		F113214F158FFB0B00313A96 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113214E158FFB0B00313A96 /* MapKit.framework */; };
+		F13A35F3163723970052579D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F13A35F1163723970052579D /* Default.png */; };
+		F13A35F4163723970052579D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13A35F2163723970052579D /* Default@2x.png */; };
+		F13A35F7163723B80052579D /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F13A35F6163723B80052579D /* logo2.png */; };
+		F15D1BA61591EF5900094589 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BA51591EF5900094589 /* SignInViewController.m */; };
+		F15D1BA91591FFAF00094589 /* MortgageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BA81591FFAF00094589 /* MortgageViewController.m */; };
+		F15D1BAC1592026500094589 /* LoanRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BAB1592026500094589 /* LoanRatesViewController.m */; };
+		F161AF351592640000312C05 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F161AF341592640000312C05 /* ContactUsViewController.m */; };
+		F161AF40159295BB00312C05 /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F161AF3E159295BB00312C05 /* back_icon.png */; };
+		F161AF41159295BB00312C05 /* forward_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F161AF3F159295BB00312C05 /* forward_icon.png */; };
+		F161AF4615976DC100312C05 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F161AF4515976DC100312C05 /* arrow.png */; };
+		F18CC84B163615DF00838B18 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18CC84A163615DF00838B18 /* Storyboard.storyboard */; };
+		F1D4371A15B31507000AF773 /* HometownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13E0D1D15B30FDB00CCEA9C /* HometownAppDelegate.m */; };
+		F1D4372415B35972000AF773 /* accountup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372315B35972000AF773 /* accountup.png */; };
+		F1D4372615B35A67000AF773 /* accountdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372515B35A67000AF773 /* accountdown.png */; };
+		F1D4372E15B35E1F000AF773 /* branchesdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372C15B35E1F000AF773 /* branchesdown.png */; };
+		F1D4372F15B35E1F000AF773 /* branchesup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372D15B35E1F000AF773 /* branchesup.png */; };
+		F1D4373215B35E25000AF773 /* contactusdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373015B35E25000AF773 /* contactusdown.png */; };
+		F1D4373315B35E25000AF773 /* contactusup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373115B35E25000AF773 /* contactusup.png */; };
+		F1D4373615B35E2C000AF773 /* mortgageratesdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373415B35E2C000AF773 /* mortgageratesdown.png */; };
+		F1D4373715B35E2C000AF773 /* mortgageratesup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373515B35E2C000AF773 /* mortgageratesup.png */; };
+		F1D4373A15B35E37000AF773 /* loanratesdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373815B35E37000AF773 /* loanratesdown.png */; };
+		F1D4373B15B35E37000AF773 /* loanratesup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373915B35E37000AF773 /* loanratesup.png */; };
+		F1D4374615B36A1D000AF773 /* sendemail.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4374515B36A1D000AF773 /* sendemail.png */; };
+		F1F20F9C159B45A9005B1AFB /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20F92159B45A9005B1AFB /* iTunesArtwork.png */; };
+		F1F20F9D159B45A9005B1AFB /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20F93159B45A9005B1AFB /* iTunesArtwork@2x.png */; };
+		F1F20F9F159B461F005B1AFB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20F9E159B461F005B1AFB /* Icon@2x.png */; };
+		F1F20FA1159B4629005B1AFB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20FA0159B4629005B1AFB /* Icon.png */; };
+		F1F20FA7159B46D7005B1AFB /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20FA6159B46D7005B1AFB /* Icon-72@2x.png */; };
+		F1F20FA9159B46E4005B1AFB /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20FA8159B46E4005B1AFB /* Icon-72.png */; };
+		F1F20FAB159B497C005B1AFB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F20FAA159B497C005B1AFB /* MessageUI.framework */; };
+		F1F20FAE159BD97F005B1AFB /* HometownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F20FAD159BD97F005B1AFB /* HometownViewController.m */; };
+		F1FB7E7715920FEB00888E8B /* BranchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FB7E7615920FEB00888E8B /* BranchesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +68,57 @@
 		F1132119158FDFA500313A96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F113211B158FDFA500313A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F113211D158FDFA500313A96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F1132121158FDFA500313A96 /* Hometown Bank Mobile-Info.plist */ = {isa = PBXFileReference; path = "Hometown Bank Mobile-Info.plist"; sourceTree = "<group>"; };
+		F1132121158FDFA500313A96 /* Hometown Bank Mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hometown Bank Mobile-Info.plist"; sourceTree = "<group>"; };
 		F1132123158FDFA500313A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1132125158FDFA500313A96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1132127158FDFA500313A96 /* Hometown Bank Mobile-Prefix.pch */ = {isa = PBXFileReference; path = "Hometown Bank Mobile-Prefix.pch"; sourceTree = "<group>"; };
-		F1132128158FDFA500313A96 /* HometownAppDelegate.h */ = {isa = PBXFileReference; path = HometownAppDelegate.h; sourceTree = "<group>"; };
-		F1132129158FDFA500313A96 /* HometownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HometownAppDelegate.m; sourceTree = "<group>"; };
+		F1132127158FDFA500313A96 /* Hometown Bank Mobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hometown Bank Mobile-Prefix.pch"; sourceTree = "<group>"; };
+		F1132128158FDFA500313A96 /* HometownAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HometownAppDelegate.h; sourceTree = "<group>"; };
 		F1132130158FDFA500313A96 /* Hometown Bank MobileTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hometown Bank MobileTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1132131158FDFA500313A96 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F1132139158FDFA500313A96 /* Hometown Bank MobileTests-Info.plist */ = {isa = PBXFileReference; path = "Hometown Bank MobileTests-Info.plist"; sourceTree = "<group>"; };
+		F1132139158FDFA500313A96 /* Hometown Bank MobileTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hometown Bank MobileTests-Info.plist"; sourceTree = "<group>"; };
 		F113213B158FDFA500313A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F113213D158FDFA500313A96 /* Hometown_Bank_MobileTests.h */ = {isa = PBXFileReference; path = Hometown_Bank_MobileTests.h; sourceTree = "<group>"; };
+		F113213D158FDFA500313A96 /* Hometown_Bank_MobileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hometown_Bank_MobileTests.h; sourceTree = "<group>"; };
 		F113213E158FDFA500313A96 /* Hometown_Bank_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hometown_Bank_MobileTests.m; sourceTree = "<group>"; };
+		F113214A158FEDE100313A96 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		F113214E158FFB0B00313A96 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F13A35F1163723970052579D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F13A35F2163723970052579D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F13A35F6163723B80052579D /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		F13E0D1D15B30FDB00CCEA9C /* HometownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HometownAppDelegate.m; sourceTree = "<group>"; };
+		F15D1BA41591EF5900094589 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		F15D1BA51591EF5900094589 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		F15D1BA71591FFAF00094589 /* MortgageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortgageViewController.h; sourceTree = "<group>"; };
+		F15D1BA81591FFAF00094589 /* MortgageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MortgageViewController.m; sourceTree = "<group>"; };
+		F15D1BAA1592026500094589 /* LoanRatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoanRatesViewController.h; sourceTree = "<group>"; };
+		F15D1BAB1592026500094589 /* LoanRatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoanRatesViewController.m; sourceTree = "<group>"; };
+		F161AF331592640000312C05 /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		F161AF341592640000312C05 /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		F161AF3E159295BB00312C05 /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
+		F161AF3F159295BB00312C05 /* forward_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward_icon.png; sourceTree = "<group>"; };
+		F161AF4515976DC100312C05 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		F18CC84A163615DF00838B18 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = "Hometown Bank Mobile/Storyboard.storyboard"; sourceTree = "<group>"; };
+		F1D4372315B35972000AF773 /* accountup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountup.png; sourceTree = "<group>"; };
+		F1D4372515B35A67000AF773 /* accountdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountdown.png; sourceTree = "<group>"; };
+		F1D4372C15B35E1F000AF773 /* branchesdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branchesdown.png; sourceTree = "<group>"; };
+		F1D4372D15B35E1F000AF773 /* branchesup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branchesup.png; sourceTree = "<group>"; };
+		F1D4373015B35E25000AF773 /* contactusdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactusdown.png; sourceTree = "<group>"; };
+		F1D4373115B35E25000AF773 /* contactusup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactusup.png; sourceTree = "<group>"; };
+		F1D4373415B35E2C000AF773 /* mortgageratesdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortgageratesdown.png; sourceTree = "<group>"; };
+		F1D4373515B35E2C000AF773 /* mortgageratesup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortgageratesup.png; sourceTree = "<group>"; };
+		F1D4373815B35E37000AF773 /* loanratesdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loanratesdown.png; sourceTree = "<group>"; };
+		F1D4373915B35E37000AF773 /* loanratesup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loanratesup.png; sourceTree = "<group>"; };
+		F1D4374515B36A1D000AF773 /* sendemail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sendemail.png; sourceTree = "<group>"; };
+		F1F20F92159B45A9005B1AFB /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "Hometown Bank Mobile/iTunesArtwork.png"; sourceTree = "<group>"; };
+		F1F20F93159B45A9005B1AFB /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "Hometown Bank Mobile/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		F1F20F9E159B461F005B1AFB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F1F20FA0159B4629005B1AFB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F1F20FA6159B46D7005B1AFB /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		F1F20FA8159B46E4005B1AFB /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		F1F20FAA159B497C005B1AFB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F1F20FAC159BD97F005B1AFB /* HometownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HometownViewController.h; sourceTree = "<group>"; };
+		F1F20FAD159BD97F005B1AFB /* HometownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HometownViewController.m; sourceTree = "<group>"; };
+		F1FB7E7515920FEB00888E8B /* BranchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BranchesViewController.h; sourceTree = "<group>"; };
+		F1FB7E7615920FEB00888E8B /* BranchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BranchesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F20FAB159B497C005B1AFB /* MessageUI.framework in Frameworks */,
+				F113214F158FFB0B00313A96 /* MapKit.framework in Frameworks */,
 				F113211A158FDFA500313A96 /* UIKit.framework in Frameworks */,
 				F113211C158FDFA500313A96 /* Foundation.framework in Frameworks */,
 				F113211E158FDFA500313A96 /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +150,15 @@
 		F113210A158FDFA500313A96 = {
 			isa = PBXGroup;
 			children = (
+				F1F20F92159B45A9005B1AFB /* iTunesArtwork.png */,
+				F1F20F93159B45A9005B1AFB /* iTunesArtwork@2x.png */,
+				F13A35F1163723970052579D /* Default.png */,
+				F13A35F2163723970052579D /* Default@2x.png */,
+				F1F20FA8159B46E4005B1AFB /* Icon-72.png */,
+				F1F20FA6159B46D7005B1AFB /* Icon-72@2x.png */,
+				F1F20FA0159B4629005B1AFB /* Icon.png */,
+				F1F20F9E159B461F005B1AFB /* Icon@2x.png */,
+				F18CC84A163615DF00838B18 /* Storyboard.storyboard */,
 				F113211F158FDFA500313A96 /* Hometown Bank Mobile */,
 				F1132137158FDFA500313A96 /* Hometown Bank MobileTests */,
 				F1132118158FDFA500313A96 /* Frameworks */,
@@ -95,6 +178,8 @@
 		F1132118158FDFA500313A96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1F20FAA159B497C005B1AFB /* MessageUI.framework */,
+				F113214E158FFB0B00313A96 /* MapKit.framework */,
 				F1132119158FDFA500313A96 /* UIKit.framework */,
 				F113211B158FDFA500313A96 /* Foundation.framework */,
 				F113211D158FDFA500313A96 /* CoreGraphics.framework */,
@@ -106,8 +191,21 @@
 		F113211F158FDFA500313A96 /* Hometown Bank Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				F15D1BA41591EF5900094589 /* SignInViewController.h */,
+				F15D1BA51591EF5900094589 /* SignInViewController.m */,
+				F15D1BAA1592026500094589 /* LoanRatesViewController.h */,
+				F15D1BAB1592026500094589 /* LoanRatesViewController.m */,
+				F15D1BA71591FFAF00094589 /* MortgageViewController.h */,
+				F15D1BA81591FFAF00094589 /* MortgageViewController.m */,
+				F1FB7E7515920FEB00888E8B /* BranchesViewController.h */,
+				F1FB7E7615920FEB00888E8B /* BranchesViewController.m */,
 				F1132128158FDFA500313A96 /* HometownAppDelegate.h */,
-				F1132129158FDFA500313A96 /* HometownAppDelegate.m */,
+				F13E0D1D15B30FDB00CCEA9C /* HometownAppDelegate.m */,
+				F161AF331592640000312C05 /* ContactUsViewController.h */,
+				F161AF341592640000312C05 /* ContactUsViewController.m */,
+				F1F20FAC159BD97F005B1AFB /* HometownViewController.h */,
+				F1F20FAD159BD97F005B1AFB /* HometownViewController.m */,
+				F1D4374015B363F6000AF773 /* images */,
 				F1132120158FDFA500313A96 /* Supporting Files */,
 			);
 			path = "Hometown Bank Mobile";
@@ -141,6 +239,29 @@
 				F113213A158FDFA500313A96 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1D4374015B363F6000AF773 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F1D4374515B36A1D000AF773 /* sendemail.png */,
+				F1D4373815B35E37000AF773 /* loanratesdown.png */,
+				F13A35F6163723B80052579D /* logo2.png */,
+				F1D4373915B35E37000AF773 /* loanratesup.png */,
+				F1D4373415B35E2C000AF773 /* mortgageratesdown.png */,
+				F1D4373515B35E2C000AF773 /* mortgageratesup.png */,
+				F1D4373015B35E25000AF773 /* contactusdown.png */,
+				F1D4373115B35E25000AF773 /* contactusup.png */,
+				F1D4372C15B35E1F000AF773 /* branchesdown.png */,
+				F1D4372D15B35E1F000AF773 /* branchesup.png */,
+				F1D4372515B35A67000AF773 /* accountdown.png */,
+				F1D4372315B35972000AF773 /* accountup.png */,
+				F113214A158FEDE100313A96 /* logo.png */,
+				F161AF4515976DC100312C05 /* arrow.png */,
+				F161AF3E159295BB00312C05 /* back_icon.png */,
+				F161AF3F159295BB00312C05 /* forward_icon.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +337,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1132124158FDFA500313A96 /* InfoPlist.strings in Resources */,
+				F113214B158FEDE100313A96 /* logo.png in Resources */,
+				F161AF40159295BB00312C05 /* back_icon.png in Resources */,
+				F161AF41159295BB00312C05 /* forward_icon.png in Resources */,
+				F161AF4615976DC100312C05 /* arrow.png in Resources */,
+				F1F20F9C159B45A9005B1AFB /* iTunesArtwork.png in Resources */,
+				F1F20F9D159B45A9005B1AFB /* iTunesArtwork@2x.png in Resources */,
+				F1F20F9F159B461F005B1AFB /* Icon@2x.png in Resources */,
+				F1F20FA1159B4629005B1AFB /* Icon.png in Resources */,
+				F1F20FA7159B46D7005B1AFB /* Icon-72@2x.png in Resources */,
+				F1F20FA9159B46E4005B1AFB /* Icon-72.png in Resources */,
+				F1D4372415B35972000AF773 /* accountup.png in Resources */,
+				F1D4372615B35A67000AF773 /* accountdown.png in Resources */,
+				F1D4372E15B35E1F000AF773 /* branchesdown.png in Resources */,
+				F1D4372F15B35E1F000AF773 /* branchesup.png in Resources */,
+				F1D4373215B35E25000AF773 /* contactusdown.png in Resources */,
+				F1D4373315B35E25000AF773 /* contactusup.png in Resources */,
+				F1D4373615B35E2C000AF773 /* mortgageratesdown.png in Resources */,
+				F1D4373715B35E2C000AF773 /* mortgageratesup.png in Resources */,
+				F1D4373A15B35E37000AF773 /* loanratesdown.png in Resources */,
+				F1D4373B15B35E37000AF773 /* loanratesup.png in Resources */,
+				F1D4374615B36A1D000AF773 /* sendemail.png in Resources */,
+				F18CC84B163615DF00838B18 /* Storyboard.storyboard in Resources */,
+				F13A35F3163723970052579D /* Default.png in Resources */,
+				F13A35F4163723970052579D /* Default@2x.png in Resources */,
+				F13A35F7163723B80052579D /* logo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +396,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D4371A15B31507000AF773 /* HometownAppDelegate.m in Sources */,
 				F1132126158FDFA500313A96 /* main.m in Sources */,
-				F113212A158FDFA500313A96 /* HometownAppDelegate.m in Sources */,
+				F15D1BA61591EF5900094589 /* SignInViewController.m in Sources */,
+				F15D1BA91591FFAF00094589 /* MortgageViewController.m in Sources */,
+				F15D1BAC1592026500094589 /* LoanRatesViewController.m in Sources */,
+				F1FB7E7715920FEB00888E8B /* BranchesViewController.m in Sources */,
+				F161AF351592640000312C05 /* ContactUsViewController.m in Sources */,
+				F1F20FAE159BD97F005B1AFB /* HometownViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +499,7 @@
 				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
 				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -358,6 +511,7 @@
 				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
 				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -415,6 +569,7 @@
 				F1132144158FDFA500313A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1132145158FDFA500313A96 /* Build configuration list for PBXNativeTarget "Hometown Bank MobileTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +578,7 @@
 				F1132147158FDFA500313A96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
