@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11G63b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="EDy-M2-65t">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4471.1" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="EDy-M2-65t">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3697.3"/>
     </dependencies>
     <scenes>
         <!--Hometown View Controller - Hometown Mobile-->
@@ -9,36 +10,36 @@
             <objects>
                 <viewController id="iVP-jX-sv4" customClass="HometownViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hSX-Mj-bD9">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="Logo_Clear.png" id="Gfg-tn-VGs">
-                                <rect key="frame" x="76" y="0.0" width="168" height="120"/>
+                                <rect key="frame" x="188" y="143" width="392" height="229"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hometown Mobile." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="tZE-EW-gdn">
-                                <rect key="frame" x="91" y="114" width="138" height="32"/>
+                                <rect key="frame" x="294" y="380" width="180" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="The Way Banking Should Be." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="dJK-pU-LV9">
-                                <rect key="frame" x="77" y="138" width="167" height="21"/>
+                                <rect key="frame" x="278" y="407" width="213" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="xwU-eh-d2s">
-                                <rect key="frame" x="54" y="166" width="213" height="42"/>
+                                <rect key="frame" x="254" y="450" width="260" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="iphoneAccountSignOnUp.png">
+                                <state key="normal" image="ipadAccountSignOnUp.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" image="iphoneAccountSignOnDown.png"/>
+                                <state key="selected" image="ipadAccountSignOnDown.png"/>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -47,62 +48,59 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Gdr-sy-Cya" userLabel="Button - branches">
-                                <rect key="frame" x="54" y="214" width="213" height="42"/>
+                                <rect key="frame" x="254" y="508" width="260" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="iphoneBranchLocationsUp.png">
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
+                                <state key="normal" image="ipadBranchLocationsUp.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" image="iphoneBranchLocationsDown.png"/>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="selected" image="ipadBranchLocationsDown.png"/>
                                 <connections>
                                     <segue destination="TFk-q6-rK3" kind="push" id="3oM-kD-CVw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="hPZ-fx-IJo">
-                                <rect key="frame" x="54" y="262" width="213" height="42"/>
+                                <rect key="frame" x="254" y="566" width="260" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="iphoneDepositRatesUp.png">
+                                <state key="normal" image="ipadMortgageRatesUp.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" image="iphoneDepositRatesDown.png"/>
+                                <state key="selected" image="ipadMortgageRatesDown.png"/>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Mm4-8I-HYX" kind="push" id="0tn-EW-gDF"/>
+                                    <segue destination="TQB-FC-D4n" kind="push" id="iHh-vY-wMd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mge-Fd-acS">
-                                <rect key="frame" x="54" y="310" width="213" height="42"/>
+                                <rect key="frame" x="254" y="624" width="260" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="loanrates" image="iphoneMortgageRatesUp.png">
+                                <state key="normal" image="ipadDepositRatesUp.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" image="iphoneMortgageRatesDown.png"/>
+                                <state key="selected" image="ipadDepositRatesDown.png"/>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="TQB-FC-D4n" kind="push" id="sKw-Ft-vcg"/>
+                                    <segue destination="Mm4-8I-HYX" kind="push" id="Gwr-bL-php"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="AbS-7v-u5K">
-                                <rect key="frame" x="54" y="358" width="213" height="42"/>
+                                <rect key="frame" x="254" y="682" width="260" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="iphoneContactUsUp.png">
+                                <state key="normal" image="ipadContactUsUp.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" image="iphoneContactUsDown.png"/>
+                                <state key="selected" image="ipadContactUsDown.png"/>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -111,9 +109,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="v95-pK-VW0">
-                                <rect key="frame" x="0.0" y="395" width="60" height="21"/>
+                                <rect key="frame" x="20" y="919" width="78" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="9"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
                                 <state key="normal" title="Full Website">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -125,8 +123,8 @@
                                     <action selector="fullWebsite" destination="iVP-jX-sv4" eventType="touchUpInside" id="imk-vc-LBT"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FDIC.png" id="Nye-Y5-beR">
-                                <rect key="frame" x="248" y="388" width="72" height="34"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FDIC.png" id="1gz-35-yMk">
+                                <rect key="frame" x="573" y="865" width="175" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -145,11 +143,11 @@
             <objects>
                 <viewController id="x6A-Ey-AIl" customClass="ContactUsViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gzg-Mp-MAQ">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Our Customer Service staff will respond promptly to your questions and comments." lineBreakMode="wordWrap" numberOfLines="10" baselineAdjustment="alignBaselines" minimumFontSize="10" id="krc-6q-ZzB">
-                                <rect key="frame" x="20" y="74" width="280" height="61"/>
+                                <rect key="frame" x="43" y="680" width="280" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
@@ -160,7 +158,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Rro-dK-dde">
-                                <rect key="frame" x="20" y="143" width="280" height="89"/>
+                                <rect key="frame" x="48" y="749" width="280" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" none="YES" staticText="YES" notEnabled="YES"/>
@@ -172,14 +170,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="czt-RI-Oyl">
-                                <rect key="frame" x="125" y="248" width="175" height="45"/>
+                                <rect key="frame" x="63" y="888" width="260" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <state key="normal" image="iphoneSendEmailUp.png">
+                                <state key="normal" image="ipadSendEmailUp.png">
                                     <color key="titleColor" red="0.050980396568775177" green="0.26666668057441711" blue="0.16078431904315948" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <state key="selected" image="iphoneSendEmailDown.png"/>
+                                <state key="selected" image="ipadSendEmailDown.png"/>
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -188,7 +186,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Contact Hometown Bank" id="XIM-Je-qGv">
-                                <rect key="frame" x="50" y="14" width="221" height="33"/>
+                                <rect key="frame" x="43" y="639" width="221" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -199,7 +197,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Toll-Free Telephone" id="EIq-tU-WiA">
-                                <rect key="frame" x="76" y="301" width="169" height="31"/>
+                                <rect key="frame" x="445" y="696" width="169" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -210,15 +208,40 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="(888) 307-5887" id="Hh2-dT-5Hr">
-                                <rect key="frame" x="93" y="329" width="134" height="30"/>
+                                <rect key="frame" x="462" y="724" width="134" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FDIC.png" id="Qri-xA-YRf">
-                                <rect key="frame" x="225" y="373" width="100" height="49"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hometown Bank Employee Directory" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="x1K-VI-9t8">
+                                <rect key="frame" x="243" y="20" width="283" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uGj-e8-OSk">
+                                <rect key="frame" x="20" y="49" width="162" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Rlj-HT-fFZ">
+                                <rect key="frame" x="190" y="49" width="336" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="40" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="XZS-uF-14B">
+                                <rect key="frame" x="503" y="49" width="245" height="525"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FDIC.png" id="hvJ-A1-Usy">
+                                <rect key="frame" x="573" y="876" width="175" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -228,25 +251,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rd-XW-ldA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="433"/>
+            <point key="canvasLocation" x="232" y="1105"/>
         </scene>
         <!--Loan Rates View Controller - Loan Rates-->
         <scene sceneID="4zm-8q-yqm">
             <objects>
                 <viewController title="Loan Rates" id="Mm4-8I-HYX" customClass="LoanRatesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kXV-dV-hbH">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="LsJ-gy-c6k">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Deposit Rates" id="t98-1p-5sy">
+                    <navigationItem key="navigationItem" title="Loan Rates" id="t98-1p-5sy">
                         <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="Ynj-zg-Snh">
                             <connections>
                                 <action selector="reload" destination="LsJ-gy-c6k" id="OiP-Jk-QDS"/>
@@ -259,162 +282,149 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzw-nw-mKm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837" y="211"/>
+            <point key="canvasLocation" x="1245" y="619"/>
         </scene>
         <!--Branches View Controller - Branches-->
         <scene sceneID="DNx-45-xTm">
             <objects>
                 <viewController id="TFk-q6-rK3" customClass="BranchesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RpL-zs-uWn">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="_________________________________________________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NrA-U4-z18">
-                                <rect key="frame" x="-9" y="184" width="357" height="21"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Sturbridge Branch" id="qcj-nn-3eW">
+                                <rect key="frame" x="300" y="629" width="168" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="GDq-LI-u94">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="205"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="664"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <connections>
-                                    <outlet property="delegate" destination="TFk-q6-rK3" id="9s8-zT-Wvw"/>
+                                    <outlet property="delegate" destination="TFk-q6-rK3" id="Nk0-KW-J2Y"/>
                                 </connections>
                             </mapView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="cnL-4j-tlc">
-                                <rect key="frame" x="0.0" y="202" width="320" height="656"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Branch Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="rDH-AU-eRH">
-                                        <rect key="frame" x="20" y="9" width="255" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="Dia-hw-pgZ">
-                                        <rect key="frame" x="25" y="49" width="180" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                        <string key="text">90 Exchange Street
-Athol, MA 01331
-(978) 249-3573</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Athol Branch" id="sm7-ao-zBd">
-                                        <rect key="frame" x="25" y="30" width="132" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="s1c-K6-UjF">
-                                        <rect key="frame" x="27" y="262" width="178" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                        <string key="text">31 Sutton Avenue 
-Oxford, MA 01540
-(508) 987-1200</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Oxford Branch" id="gWd-cs-Lis">
-                                        <rect key="frame" x="27" y="243" width="152" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="7Yp-V8-Wle">
-                                        <rect key="frame" x="27" y="356" width="199" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                        <string key="text">131 Main Street
-S. Lancaster, MA 01561
-(978) 365-3352</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="S. Lancaster Branch" id="jy9-Fd-jqJ">
-                                        <rect key="frame" x="27" y="337" width="152" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="eOn-nl-8a2">
-                                        <rect key="frame" x="27" y="450" width="207" height="92"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                        <string key="text">331 Main Street
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" id="eOn-nl-8a2">
+                                <rect key="frame" x="296" y="658" width="176" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <string key="text">331 Main Street
 Route 131
 Sturbridge, MA 01566
 (508) 347-3312</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Sturbridge Branch" id="qcj-nn-3eW">
-                                        <rect key="frame" x="27" y="431" width="152" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="s5L-Aj-huS">
-                                        <rect key="frame" x="27" y="569" width="190" height="67"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                        <string key="text">218 Main Street 
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" id="Dia-hw-pgZ">
+                                <rect key="frame" x="552" y="794" width="180" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <string key="text">90 Exchange Street
+Athol, MA 01331
+(978) 249-3573</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Athol Branch" id="sm7-ao-zBd">
+                                <rect key="frame" x="576" y="768" width="132" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" id="s1c-K6-UjF">
+                                <rect key="frame" x="553" y="657" width="178" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <string key="text">31 Sutton Avenue 
+Oxford, MA 01540
+(508) 987-1200</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Oxford Branch" id="gWd-cs-Lis">
+                                <rect key="frame" x="574" y="630" width="137" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" id="7Yp-V8-Wle">
+                                <rect key="frame" x="290" y="794" width="189" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <string key="text">131 Main Street
+S. Lancaster, MA 01561
+(978) 365-3352</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="S. Lancaster Branch" id="jy9-Fd-jqJ">
+                                <rect key="frame" x="293" y="768" width="182" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" id="s5L-Aj-huS">
+                                <rect key="frame" x="30" y="794" width="161" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <string key="text">218 Main Street 
 Webster, MA 01570
 (508) 943-6062</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Webster Branch" id="eae-Rm-Dqp">
-                                        <rect key="frame" x="27" y="550" width="152" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" id="RsF-oV-7Pw">
-                                        <rect key="frame" x="25" y="143" width="209" height="86"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                                        <string key="text">569 Southbridge Street Heritage Plaza
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Webster Branch" id="eae-Rm-Dqp">
+                                <rect key="frame" x="34" y="768" width="152" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" id="RsF-oV-7Pw">
+                                <rect key="frame" x="22" y="656" width="184" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                <string key="text">569 Southbridge Street Heritage Plaza
 Auburn, MA 01501
 (508) 721-7623</string>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Auburn Branch" id="yvw-uY-2dQ">
-                                        <rect key="frame" x="25" y="124" width="148" height="27"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
-                                <connections>
-                                    <outlet property="delegate" destination="RpL-zs-uWn" id="utH-36-bCf"/>
-                                </connections>
-                            </scrollView>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Auburn Branch" id="yvw-uY-2dQ">
+                                <rect key="frame" x="39" y="630" width="142" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83921575550000005" green="0.87450987099999999" blue="0.86666673419999996" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Branch Locations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="rDH-AU-eRH">
+                                <rect key="frame" x="304" y="608" width="161" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="FDIC.png" id="uJw-Gb-JAL">
+                                <rect key="frame" x="589" y="885" width="175" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.83921575546264648" green="0.87450987100601196" blue="0.86666673421859741" alpha="1" colorSpace="deviceRGB"/>
                         <accessibility key="accessibilityConfiguration">
@@ -429,30 +439,29 @@ Auburn, MA 01501
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="branchesScrollView" destination="cnL-4j-tlc" id="OZ0-DY-6Cl"/>
                         <outlet property="mapView" destination="GDq-LI-u94" id="5MH-OO-keH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ku-EZ-lts" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1280" y="-181"/>
+            <point key="canvasLocation" x="2184" y="-321"/>
         </scene>
         <!--Sign In View Controller - Accounts-->
         <scene sceneID="tEa-hG-jRM">
             <objects>
                 <viewController id="x63-yy-NHR" customClass="SignInViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ojp-xx-qJa">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="s2M-eY-QyK">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
                             </webView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Obi-HM-Y71">
-                                <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="980" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem image="back_icon.png" id="VmJ-8J-aTO">
@@ -465,7 +474,7 @@ Auburn, MA 01501
                                             <action selector="goForward" destination="s2M-eY-QyK" id="nKp-SX-xx9"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="170" style="plain" systemItem="fixedSpace" id="xNZ-vb-q6O"/>
+                                    <barButtonItem width="617" style="plain" systemItem="fixedSpace" id="xNZ-vb-q6O"/>
                                     <barButtonItem systemItem="refresh" id="jup-cW-gAx">
                                         <connections>
                                             <action selector="reload" destination="s2M-eY-QyK" id="6U3-mE-BfP"/>
@@ -483,18 +492,18 @@ Auburn, MA 01501
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hW5-WU-IEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="360" y="-896"/>
+            <point key="canvasLocation" x="424" y="-1773"/>
         </scene>
         <!--Mortgage View Controller - Mortgage Rates-->
         <scene sceneID="DXg-hG-RTM">
             <objects>
                 <viewController title="Mortgage Rates" id="TQB-FC-D4n" customClass="MortgageViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="U3D-l1-Cua">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" scalesPageToFit="YES" id="Ha4-2B-AEf">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="416"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES"/>
@@ -509,7 +518,7 @@ Auburn, MA 01501
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="90O-A1-C8u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837" y="-644"/>
+            <point key="canvasLocation" x="1561" y="-1440"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="GeH-wG-JQZ">
@@ -524,69 +533,30 @@ Auburn, MA 01501
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3yI-Xo-cya" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-386" y="-188"/>
+            <point key="canvasLocation" x="-950" y="-132"/>
         </scene>
     </scenes>
     <resources>
         <image name="FDIC.png" width="245" height="85"/>
-        <image name="Logo_Clear.png" width="739" height="519"/>
+        <image name="Logo_Clear.png" width="266.05328369140625" height="186.84933471679688"/>
         <image name="arrow.png" width="14" height="15"/>
         <image name="back_icon.png" width="21" height="18"/>
         <image name="forward_icon.png" width="21" height="18"/>
-        <image name="iphoneAccountSignOnDown.png" width="211" height="50"/>
-        <image name="iphoneAccountSignOnUp.png" width="211" height="50"/>
-        <image name="iphoneBranchLocationsDown.png" width="211" height="50"/>
-        <image name="iphoneBranchLocationsUp.png" width="211" height="50"/>
-        <image name="iphoneContactUsDown.png" width="211" height="50"/>
-        <image name="iphoneContactUsUp.png" width="211" height="50"/>
-        <image name="iphoneDepositRatesDown.png" width="211" height="50"/>
-        <image name="iphoneDepositRatesUp.png" width="211" height="50"/>
-        <image name="iphoneMortgageRatesDown.png" width="211" height="50"/>
-        <image name="iphoneMortgageRatesUp.png" width="211" height="50"/>
-        <image name="iphoneSendEmailDown.png" width="211" height="50"/>
-        <image name="iphoneSendEmailUp.png" width="211" height="50"/>
+        <image name="ipadAccountSignOnDown.png" width="255" height="47"/>
+        <image name="ipadAccountSignOnUp.png" width="255" height="47"/>
+        <image name="ipadBranchLocationsDown.png" width="255" height="47"/>
+        <image name="ipadBranchLocationsUp.png" width="255" height="47"/>
+        <image name="ipadContactUsDown.png" width="255" height="47"/>
+        <image name="ipadContactUsUp.png" width="255" height="47"/>
+        <image name="ipadDepositRatesDown.png" width="255" height="47"/>
+        <image name="ipadDepositRatesUp.png" width="255" height="47"/>
+        <image name="ipadMortgageRatesDown.png" width="255" height="47"/>
+        <image name="ipadMortgageRatesUp.png" width="255" height="47"/>
+        <image name="ipadSendEmailDown.png" width="255" height="47"/>
+        <image name="ipadSendEmailUp.png" width="255" height="47"/>
     </resources>
-    <classes>
-        <class className="BranchesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BranchesViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="branchesScrollView" candidateClass="UIScrollView"/>
-                <relationship kind="outlet" name="mapView" candidateClass="MKMapView"/>
-            </relationships>
-        </class>
-        <class className="ContactUsViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ContactUsViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="openEmail"/>
-            </relationships>
-        </class>
-        <class className="HometownViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/HometownViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="fullWebsite"/>
-            </relationships>
-        </class>
-        <class className="LoanRatesViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/LoanRatesViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="loanRatesWebView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="MortgageViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MortgageViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="mortgageWebView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-        <class className="SignInViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SignInViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="signInWebView" candidateClass="UIWebView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>

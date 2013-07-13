@@ -50,7 +50,11 @@
         [mailComposer setToRecipients:[NSArray arrayWithObjects:@"customerserv@hometowncoop.com", nil]];
         [mailComposer setSubject:@""];
         [mailComposer setMessageBody:@"" isHTML:NO]; [mailComposer setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-        [self presentModalViewController:mailComposer animated:YES]; 
+//        [self presentModalViewController:mailComposer animated:YES];
+        if([self respondsToSelector:@selector(presentViewController:animated:completion:)])
+            [self presentViewController:mailComposer animated:YES completion:^{/* done */}];
+        else
+            [self presentModalViewController:mailComposer animated:YES];
     } 
     
 }
@@ -59,9 +63,15 @@
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error {
     if (error) { 
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"Error %@", [error description]] delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil]; [alert show];
-        [self dismissModalViewControllerAnimated:YES]; 
-    } 
-    [self dismissModalViewControllerAnimated:YES];
+        if([self respondsToSelector:@selector(dismissViewControllerAnimated:completion:)])
+            [self dismissViewControllerAnimated:YES completion:^{/* done */}];
+        else
+            [self dismissModalViewControllerAnimated:YES];
+    }
+    if([self respondsToSelector:@selector(dismissViewControllerAnimated:completion:)])
+        [self dismissViewControllerAnimated:YES completion:^{/* done */}];
+    else
+        [self dismissModalViewControllerAnimated:YES];
 }
 
 

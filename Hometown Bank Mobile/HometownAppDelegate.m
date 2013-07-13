@@ -13,10 +13,23 @@
 @synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    
-    return YES;
-}
+    {
+        if(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone){
+            UIStoryboard *storyBoard;
+            
+            CGSize result = [[UIScreen mainScreen] bounds].size;
+            CGFloat scale = [UIScreen mainScreen].scale;
+            result = CGSizeMake(result.width * scale, result.height * scale);
+            
+            if(result.height == 1136){
+                storyBoard = [UIStoryboard storyboardWithName:@"Storyboard5" bundle:nil];
+                UIViewController *initViewController = [storyBoard instantiateInitialViewController];
+                [self.window setRootViewController:initViewController];
+            }
+        }
+        
+        return YES;
+    }
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

@@ -17,11 +17,82 @@
 		F1132134158FDFA500313A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113211B158FDFA500313A96 /* Foundation.framework */; };
 		F113213C158FDFA500313A96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F113213A158FDFA500313A96 /* InfoPlist.strings */; };
 		F113213F158FDFA500313A96 /* Hometown_Bank_MobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F113213E158FDFA500313A96 /* Hometown_Bank_MobileTests.m */; };
-		F113214B158FEDE100313A96 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F113214A158FEDE100313A96 /* logo.png */; };
 		F113214F158FFB0B00313A96 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F113214E158FFB0B00313A96 /* MapKit.framework */; };
-		F13A35F3163723970052579D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F13A35F1163723970052579D /* Default.png */; };
-		F13A35F4163723970052579D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13A35F2163723970052579D /* Default@2x.png */; };
-		F13A35F7163723B80052579D /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = F13A35F6163723B80052579D /* logo2.png */; };
+		F11C09BD1699D86A0098140B /* ipadBranchLocationsDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09B81699D86A0098140B /* ipadBranchLocationsDown@2x.png */; };
+		F11C09BF1699D86A0098140B /* ipadDepositRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09BA1699D86A0098140B /* ipadDepositRatesDown@2x.png */; };
+		F11C09C01699D86A0098140B /* ipadLoanRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09BB1699D86A0098140B /* ipadLoanRatesDown@2x.png */; };
+		F11C09C21699D8C30098140B /* ipadAccountSignOnDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09C11699D8C30098140B /* ipadAccountSignOnDown@2x.png */; };
+		F11C09CF169B8FA70098140B /* ipadAccountSignOnDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09C6169B8FA60098140B /* ipadAccountSignOnDown.png */; };
+		F11C09D0169B8FA70098140B /* ipadAccountSignOnUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09C7169B8FA60098140B /* ipadAccountSignOnUp.png */; };
+		F11C09D1169B8FA70098140B /* ipadBranchLocationsDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09C8169B8FA60098140B /* ipadBranchLocationsDown.png */; };
+		F11C09D3169B8FA70098140B /* ipadBranchLocationsUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09CA169B8FA60098140B /* ipadBranchLocationsUp.png */; };
+		F11C09D4169B8FA70098140B /* ipadContactUsDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09CB169B8FA60098140B /* ipadContactUsDown.png */; };
+		F11C09D5169B8FA70098140B /* ipadContactUsDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09CC169B8FA60098140B /* ipadContactUsDown@2x.png */; };
+		F11C09D6169B8FA70098140B /* ipadContactUsUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09CD169B8FA70098140B /* ipadContactUsUp.png */; };
+		F11C09D7169B8FA70098140B /* ipadContactUsUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09CE169B8FA70098140B /* ipadContactUsUp@2x.png */; };
+		F11C09DA169B90DA0098140B /* ipadDepositRatesDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09D8169B90DA0098140B /* ipadDepositRatesDown.png */; };
+		F11C09DB169B90DA0098140B /* ipadDepositRatesUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09D9169B90DA0098140B /* ipadDepositRatesUp.png */; };
+		F11C09DE169B91340098140B /* ipadLoanRatesDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09DC169B91340098140B /* ipadLoanRatesDown.png */; };
+		F11C09DF169B91340098140B /* ipadLoanRatesUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09DD169B91340098140B /* ipadLoanRatesUp.png */; };
+		F11C09E1169C48990098140B /* ipadAccountSignOnUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09E0169C48990098140B /* ipadAccountSignOnUp@2x.png */; };
+		F11C09E3169C48AA0098140B /* ipadBranchLocationsUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09E2169C48AA0098140B /* ipadBranchLocationsUp@2x.png */; };
+		F11C09E5169C48C10098140B /* ipadLoanRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09E4169C48C10098140B /* ipadLoanRatesUp@2x.png */; };
+		F11C09E7169C49330098140B /* ipadDepositRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09E6169C49330098140B /* ipadDepositRatesUp@2x.png */; };
+		F11C09E9169C4D780098140B /* FDIC.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09E8169C4D770098140B /* FDIC.png */; };
+		F11C09ED169C513C0098140B /* ipadSendEmailDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09EA169C513A0098140B /* ipadSendEmailDown.png */; };
+		F11C09EE169C513C0098140B /* ipadSendEmailDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09EB169C513A0098140B /* ipadSendEmailDown@2x.png */; };
+		F11C09EF169C513C0098140B /* ipadSendEmailUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09EC169C513B0098140B /* ipadSendEmailUp.png */; };
+		F11C09F1169C51BD0098140B /* ipadSendEmailUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F0169C51BD0098140B /* ipadSendEmailUp@2x.png */; };
+		F11C09F3169C52680098140B /* ios_development-1.cer in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F2169C52680098140B /* ios_development-1.cer */; };
+		F11C09F5169C53BD0098140B /* ios_distribution-2.cer in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F4169C53BD0098140B /* ios_distribution-2.cer */; };
+		F11C09F7169C53CB0098140B /* Wildcard-1.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F6169C53CB0098140B /* Wildcard-1.mobileprovision */; };
+		F11C0A04169C782E0098140B /* iphoneAccountSignOnDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F9169C782E0098140B /* iphoneAccountSignOnDown.png */; };
+		F11C0A05169C782E0098140B /* iphoneAccountSignOnUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FA169C782E0098140B /* iphoneAccountSignOnUp.png */; };
+		F11C0A06169C782E0098140B /* iphoneBranchLocationsDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FB169C782E0098140B /* iphoneBranchLocationsDown.png */; };
+		F11C0A07169C782E0098140B /* iphoneBranchLocationsUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FC169C782E0098140B /* iphoneBranchLocationsUp.png */; };
+		F11C0A08169C782E0098140B /* iphoneContactUsUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FD169C782E0098140B /* iphoneContactUsUp.png */; };
+		F11C0A09169C782E0098140B /* iphoneDepositRatesDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FE169C782E0098140B /* iphoneDepositRatesDown.png */; };
+		F11C0A0A169C782E0098140B /* iphoneDepositRatesUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FF169C782E0098140B /* iphoneDepositRatesUp.png */; };
+		F11C0A0B169C782E0098140B /* iphoneMortgageRatesDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A00169C782E0098140B /* iphoneMortgageRatesDown.png */; };
+		F11C0A0C169C782E0098140B /* iphoneMortgageRatesUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A01169C782E0098140B /* iphoneMortgageRatesUp.png */; };
+		F11C0A0D169C782E0098140B /* iphoneSendEmailDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A02169C782E0098140B /* iphoneSendEmailDown.png */; };
+		F11C0A0E169C782E0098140B /* iphoneSendEmailUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A03169C782E0098140B /* iphoneSendEmailUp.png */; };
+		F11C0A10169C78FE0098140B /* iphoneContactUsDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A0F169C78FE0098140B /* iphoneContactUsDown.png */; };
+		F11C0A15169C835F0098140B /* ipadMortgageRatesDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A11169C835A0098140B /* ipadMortgageRatesDown.png */; };
+		F11C0A16169C835F0098140B /* ipadMortgageRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A12169C835B0098140B /* ipadMortgageRatesDown@2x.png */; };
+		F11C0A17169C835F0098140B /* ipadMortgageRatesUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A13169C835C0098140B /* ipadMortgageRatesUp.png */; };
+		F11C0A18169C835F0098140B /* ipadMortgageRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A14169C835E0098140B /* ipadMortgageRatesUp@2x.png */; };
+		F11C0A1E169CABCB0098140B /* Default-iphone5.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A1D169CABCA0098140B /* Default-iphone5.png */; };
+		F11C0A20169CABE00098140B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A1F169CABE00098140B /* Default-568h@2x.png */; };
+		F11C0A22169CAC160098140B /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A21169CAC160098140B /* Default-Portrait~ipad.png */; };
+		F11C0A24169CACC60098140B /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A23169CACC60098140B /* Default-Portrait@2x~ipad.png */; };
+		F11C0A27169CAD970098140B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A19169CAB360098140B /* Default.png */; };
+		F11C0A28169CAD9F0098140B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A1B169CAB620098140B /* Default@2x.png */; };
+		F11C0A2C169CB1C80098140B /* iphoneMortgageRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A29169CB1C70098140B /* iphoneMortgageRatesDown@2x.png */; };
+		F11C0A2E169CB1C80098140B /* iphoneMortgageRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A2B169CB1C70098140B /* iphoneMortgageRatesUp@2x.png */; };
+		F11C0A3A169DA3D70098140B /* iphoneAccountSignOnDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A2F169DA3D40098140B /* iphoneAccountSignOnDown@2x.png */; };
+		F11C0A3B169DA3D70098140B /* iphoneAccountSignOnUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A30169DA3D40098140B /* iphoneAccountSignOnUp@2x.png */; };
+		F11C0A3D169DA3D70098140B /* iphoneContactUsDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A32169DA3D40098140B /* iphoneContactUsDown@2x.png */; };
+		F11C0A3E169DA3D70098140B /* iphoneContactUsUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A33169DA3D50098140B /* iphoneContactUsUp@2x.png */; };
+		F11C0A3F169DA3D70098140B /* iphoneDepositRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A34169DA3D50098140B /* iphoneDepositRatesDown@2x.png */; };
+		F11C0A40169DA3D70098140B /* iphoneDepositRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A35169DA3D50098140B /* iphoneDepositRatesUp@2x.png */; };
+		F11C0A41169DA3D70098140B /* iphoneMortgageRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A36169DA3D70098140B /* iphoneMortgageRatesDown@2x.png */; };
+		F11C0A42169DA3D70098140B /* iphoneMortgageRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A37169DA3D70098140B /* iphoneMortgageRatesUp@2x.png */; };
+		F11C0A43169DA3D70098140B /* iphoneSendEmailDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A38169DA3D70098140B /* iphoneSendEmailDown@2x.png */; };
+		F11C0A44169DA3D70098140B /* iphoneSendEmailUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A39169DA3D70098140B /* iphoneSendEmailUp@2x.png */; };
+		F11C0A46169DA5EA0098140B /* Logo_Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A45169DA5E80098140B /* Logo_Clear.png */; };
+		F11C0A49169DA6DB0098140B /* iphoneBranchLocationsDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A47169DA6DA0098140B /* iphoneBranchLocationsDown@2x.png */; };
+		F11C0A4A169DA6DB0098140B /* iphoneBranchLocationsUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A48169DA6DA0098140B /* iphoneBranchLocationsUp@2x.png */; };
+		F11C0A4C169DA8520098140B /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A4B169DA8510098140B /* arrow@2x.png */; };
+		F11C0A4F169DAAEF0098140B /* back_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A4D169DAAEA0098140B /* back_icon@2x.png */; };
+		F11C0A50169DAAEF0098140B /* forward_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A4E169DAAEC0098140B /* forward_icon@2x.png */; };
+		F12E6FFB16489DF500009E28 /* ios_distribution.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12E6FFA16489DF500009E28 /* ios_distribution.cer */; };
+		F12E6FFC16489DF500009E28 /* ios_distribution.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12E6FFA16489DF500009E28 /* ios_distribution.cer */; };
+		F12FFC9516489D6D00D272A4 /* Wildcard.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */; };
+		F12FFC9616489D6D00D272A4 /* Wildcard.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */; };
+		F12FFC9816489D7900D272A4 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9716489D7900D272A4 /* ios_development.cer */; };
+		F12FFC9916489D7900D272A4 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9716489D7900D272A4 /* ios_development.cer */; };
+		F13A702B1699C2D00081DF1D /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A702A1699C2D00081DF1D /* Storyboard_iPad.storyboard */; };
 		F15D1BA61591EF5900094589 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BA51591EF5900094589 /* SignInViewController.m */; };
 		F15D1BA91591FFAF00094589 /* MortgageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BA81591FFAF00094589 /* MortgageViewController.m */; };
 		F15D1BAC1592026500094589 /* LoanRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BAB1592026500094589 /* LoanRatesViewController.m */; };
@@ -29,19 +100,11 @@
 		F161AF40159295BB00312C05 /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F161AF3E159295BB00312C05 /* back_icon.png */; };
 		F161AF41159295BB00312C05 /* forward_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F161AF3F159295BB00312C05 /* forward_icon.png */; };
 		F161AF4615976DC100312C05 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = F161AF4515976DC100312C05 /* arrow.png */; };
+		F1843D8917735099005BD9B6 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1843D8817735099005BD9B6 /* MyLocation.m */; };
+		F1843D8C17735206005BD9B6 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1843D8B17735206005BD9B6 /* AddressBook.framework */; };
 		F18CC84B163615DF00838B18 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18CC84A163615DF00838B18 /* Storyboard.storyboard */; };
+		F1CD6366169F52B4006A35A4 /* Storyboard5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CD6365169F52B4006A35A4 /* Storyboard5.storyboard */; };
 		F1D4371A15B31507000AF773 /* HometownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F13E0D1D15B30FDB00CCEA9C /* HometownAppDelegate.m */; };
-		F1D4372415B35972000AF773 /* accountup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372315B35972000AF773 /* accountup.png */; };
-		F1D4372615B35A67000AF773 /* accountdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372515B35A67000AF773 /* accountdown.png */; };
-		F1D4372E15B35E1F000AF773 /* branchesdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372C15B35E1F000AF773 /* branchesdown.png */; };
-		F1D4372F15B35E1F000AF773 /* branchesup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4372D15B35E1F000AF773 /* branchesup.png */; };
-		F1D4373215B35E25000AF773 /* contactusdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373015B35E25000AF773 /* contactusdown.png */; };
-		F1D4373315B35E25000AF773 /* contactusup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373115B35E25000AF773 /* contactusup.png */; };
-		F1D4373615B35E2C000AF773 /* mortgageratesdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373415B35E2C000AF773 /* mortgageratesdown.png */; };
-		F1D4373715B35E2C000AF773 /* mortgageratesup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373515B35E2C000AF773 /* mortgageratesup.png */; };
-		F1D4373A15B35E37000AF773 /* loanratesdown.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373815B35E37000AF773 /* loanratesdown.png */; };
-		F1D4373B15B35E37000AF773 /* loanratesup.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4373915B35E37000AF773 /* loanratesup.png */; };
-		F1D4374615B36A1D000AF773 /* sendemail.png in Resources */ = {isa = PBXBuildFile; fileRef = F1D4374515B36A1D000AF773 /* sendemail.png */; };
 		F1F20F9C159B45A9005B1AFB /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20F92159B45A9005B1AFB /* iTunesArtwork.png */; };
 		F1F20F9D159B45A9005B1AFB /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20F93159B45A9005B1AFB /* iTunesArtwork@2x.png */; };
 		F1F20F9F159B461F005B1AFB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F20F9E159B461F005B1AFB /* Icon@2x.png */; };
@@ -79,11 +142,79 @@
 		F113213B158FDFA500313A96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F113213D158FDFA500313A96 /* Hometown_Bank_MobileTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hometown_Bank_MobileTests.h; sourceTree = "<group>"; };
 		F113213E158FDFA500313A96 /* Hometown_Bank_MobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hometown_Bank_MobileTests.m; sourceTree = "<group>"; };
-		F113214A158FEDE100313A96 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		F113214E158FFB0B00313A96 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		F13A35F1163723970052579D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F13A35F2163723970052579D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		F13A35F6163723B80052579D /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		F11C09B81699D86A0098140B /* ipadBranchLocationsDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadBranchLocationsDown@2x.png"; sourceTree = "<group>"; };
+		F11C09BA1699D86A0098140B /* ipadDepositRatesDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadDepositRatesDown@2x.png"; sourceTree = "<group>"; };
+		F11C09BB1699D86A0098140B /* ipadLoanRatesDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadLoanRatesDown@2x.png"; sourceTree = "<group>"; };
+		F11C09C11699D8C30098140B /* ipadAccountSignOnDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadAccountSignOnDown@2x.png"; sourceTree = "<group>"; };
+		F11C09C6169B8FA60098140B /* ipadAccountSignOnDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadAccountSignOnDown.png; sourceTree = "<group>"; };
+		F11C09C7169B8FA60098140B /* ipadAccountSignOnUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadAccountSignOnUp.png; sourceTree = "<group>"; };
+		F11C09C8169B8FA60098140B /* ipadBranchLocationsDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadBranchLocationsDown.png; sourceTree = "<group>"; };
+		F11C09CA169B8FA60098140B /* ipadBranchLocationsUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadBranchLocationsUp.png; sourceTree = "<group>"; };
+		F11C09CB169B8FA60098140B /* ipadContactUsDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadContactUsDown.png; sourceTree = "<group>"; };
+		F11C09CC169B8FA60098140B /* ipadContactUsDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadContactUsDown@2x.png"; sourceTree = "<group>"; };
+		F11C09CD169B8FA70098140B /* ipadContactUsUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadContactUsUp.png; sourceTree = "<group>"; };
+		F11C09CE169B8FA70098140B /* ipadContactUsUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadContactUsUp@2x.png"; sourceTree = "<group>"; };
+		F11C09D8169B90DA0098140B /* ipadDepositRatesDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadDepositRatesDown.png; sourceTree = "<group>"; };
+		F11C09D9169B90DA0098140B /* ipadDepositRatesUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadDepositRatesUp.png; sourceTree = "<group>"; };
+		F11C09DC169B91340098140B /* ipadLoanRatesDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadLoanRatesDown.png; sourceTree = "<group>"; };
+		F11C09DD169B91340098140B /* ipadLoanRatesUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadLoanRatesUp.png; sourceTree = "<group>"; };
+		F11C09E0169C48990098140B /* ipadAccountSignOnUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadAccountSignOnUp@2x.png"; sourceTree = "<group>"; };
+		F11C09E2169C48AA0098140B /* ipadBranchLocationsUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadBranchLocationsUp@2x.png"; sourceTree = "<group>"; };
+		F11C09E4169C48C10098140B /* ipadLoanRatesUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadLoanRatesUp@2x.png"; sourceTree = "<group>"; };
+		F11C09E6169C49330098140B /* ipadDepositRatesUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadDepositRatesUp@2x.png"; sourceTree = "<group>"; };
+		F11C09E8169C4D770098140B /* FDIC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FDIC.png; sourceTree = "<group>"; };
+		F11C09EA169C513A0098140B /* ipadSendEmailDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadSendEmailDown.png; sourceTree = "<group>"; };
+		F11C09EB169C513A0098140B /* ipadSendEmailDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadSendEmailDown@2x.png"; sourceTree = "<group>"; };
+		F11C09EC169C513B0098140B /* ipadSendEmailUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadSendEmailUp.png; sourceTree = "<group>"; };
+		F11C09F0169C51BD0098140B /* ipadSendEmailUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadSendEmailUp@2x.png"; sourceTree = "<group>"; };
+		F11C09F2169C52680098140B /* ios_development-1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios_development-1.cer"; sourceTree = "<group>"; };
+		F11C09F4169C53BD0098140B /* ios_distribution-2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios_distribution-2.cer"; sourceTree = "<group>"; };
+		F11C09F6169C53CB0098140B /* Wildcard-1.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wildcard-1.mobileprovision"; sourceTree = "<group>"; };
+		F11C09F9169C782E0098140B /* iphoneAccountSignOnDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneAccountSignOnDown.png; sourceTree = "<group>"; };
+		F11C09FA169C782E0098140B /* iphoneAccountSignOnUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneAccountSignOnUp.png; sourceTree = "<group>"; };
+		F11C09FB169C782E0098140B /* iphoneBranchLocationsDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBranchLocationsDown.png; sourceTree = "<group>"; };
+		F11C09FC169C782E0098140B /* iphoneBranchLocationsUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBranchLocationsUp.png; sourceTree = "<group>"; };
+		F11C09FD169C782E0098140B /* iphoneContactUsUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneContactUsUp.png; sourceTree = "<group>"; };
+		F11C09FE169C782E0098140B /* iphoneDepositRatesDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneDepositRatesDown.png; sourceTree = "<group>"; };
+		F11C09FF169C782E0098140B /* iphoneDepositRatesUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneDepositRatesUp.png; sourceTree = "<group>"; };
+		F11C0A00169C782E0098140B /* iphoneMortgageRatesDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneMortgageRatesDown.png; sourceTree = "<group>"; };
+		F11C0A01169C782E0098140B /* iphoneMortgageRatesUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneMortgageRatesUp.png; sourceTree = "<group>"; };
+		F11C0A02169C782E0098140B /* iphoneSendEmailDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneSendEmailDown.png; sourceTree = "<group>"; };
+		F11C0A03169C782E0098140B /* iphoneSendEmailUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneSendEmailUp.png; sourceTree = "<group>"; };
+		F11C0A0F169C78FE0098140B /* iphoneContactUsDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneContactUsDown.png; sourceTree = "<group>"; };
+		F11C0A11169C835A0098140B /* ipadMortgageRatesDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadMortgageRatesDown.png; sourceTree = "<group>"; };
+		F11C0A12169C835B0098140B /* ipadMortgageRatesDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadMortgageRatesDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A13169C835C0098140B /* ipadMortgageRatesUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadMortgageRatesUp.png; sourceTree = "<group>"; };
+		F11C0A14169C835E0098140B /* ipadMortgageRatesUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadMortgageRatesUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A19169CAB360098140B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "Hometown Bank Mobile/Default.png"; sourceTree = "<group>"; };
+		F11C0A1B169CAB620098140B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F11C0A1D169CABCA0098140B /* Default-iphone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-iphone5.png"; path = "Hometown Bank Mobile/Default-iphone5.png"; sourceTree = "<group>"; };
+		F11C0A1F169CABE00098140B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F11C0A21169CAC160098140B /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		F11C0A23169CACC60098140B /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		F11C0A29169CB1C70098140B /* iphoneMortgageRatesDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneMortgageRatesDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A2B169CB1C70098140B /* iphoneMortgageRatesUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneMortgageRatesUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A2F169DA3D40098140B /* iphoneAccountSignOnDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneAccountSignOnDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A30169DA3D40098140B /* iphoneAccountSignOnUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneAccountSignOnUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A32169DA3D40098140B /* iphoneContactUsDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneContactUsDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A33169DA3D50098140B /* iphoneContactUsUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneContactUsUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A34169DA3D50098140B /* iphoneDepositRatesDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneDepositRatesDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A35169DA3D50098140B /* iphoneDepositRatesUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneDepositRatesUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A36169DA3D70098140B /* iphoneMortgageRatesDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneMortgageRatesDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A37169DA3D70098140B /* iphoneMortgageRatesUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneMortgageRatesUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A38169DA3D70098140B /* iphoneSendEmailDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneSendEmailDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A39169DA3D70098140B /* iphoneSendEmailUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneSendEmailUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A45169DA5E80098140B /* Logo_Clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo_Clear.png; sourceTree = "<group>"; };
+		F11C0A47169DA6DA0098140B /* iphoneBranchLocationsDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneBranchLocationsDown@2x.png"; sourceTree = "<group>"; };
+		F11C0A48169DA6DA0098140B /* iphoneBranchLocationsUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphoneBranchLocationsUp@2x.png"; sourceTree = "<group>"; };
+		F11C0A4B169DA8510098140B /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		F11C0A4D169DAAEA0098140B /* back_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_icon@2x.png"; sourceTree = "<group>"; };
+		F11C0A4E169DAAEC0098140B /* forward_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward_icon@2x.png"; sourceTree = "<group>"; };
+		F12E6FFA16489DF500009E28 /* ios_distribution.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_distribution.cer; sourceTree = "<group>"; };
+		F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wildcard.mobileprovision; sourceTree = "<group>"; };
+		F12FFC9716489D7900D272A4 /* ios_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_development.cer; sourceTree = "<group>"; };
+		F13A702A1699C2D00081DF1D /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard_iPad.storyboard; path = "Hometown Bank Mobile/Storyboard_iPad.storyboard"; sourceTree = "<group>"; };
 		F13E0D1D15B30FDB00CCEA9C /* HometownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HometownAppDelegate.m; sourceTree = "<group>"; };
 		F15D1BA41591EF5900094589 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		F15D1BA51591EF5900094589 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
@@ -96,18 +227,11 @@
 		F161AF3E159295BB00312C05 /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
 		F161AF3F159295BB00312C05 /* forward_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forward_icon.png; sourceTree = "<group>"; };
 		F161AF4515976DC100312C05 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		F1843D8717735099005BD9B6 /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
+		F1843D8817735099005BD9B6 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
+		F1843D8B17735206005BD9B6 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		F18CC84A163615DF00838B18 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard.storyboard; path = "Hometown Bank Mobile/Storyboard.storyboard"; sourceTree = "<group>"; };
-		F1D4372315B35972000AF773 /* accountup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountup.png; sourceTree = "<group>"; };
-		F1D4372515B35A67000AF773 /* accountdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountdown.png; sourceTree = "<group>"; };
-		F1D4372C15B35E1F000AF773 /* branchesdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branchesdown.png; sourceTree = "<group>"; };
-		F1D4372D15B35E1F000AF773 /* branchesup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = branchesup.png; sourceTree = "<group>"; };
-		F1D4373015B35E25000AF773 /* contactusdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactusdown.png; sourceTree = "<group>"; };
-		F1D4373115B35E25000AF773 /* contactusup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactusup.png; sourceTree = "<group>"; };
-		F1D4373415B35E2C000AF773 /* mortgageratesdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortgageratesdown.png; sourceTree = "<group>"; };
-		F1D4373515B35E2C000AF773 /* mortgageratesup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortgageratesup.png; sourceTree = "<group>"; };
-		F1D4373815B35E37000AF773 /* loanratesdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loanratesdown.png; sourceTree = "<group>"; };
-		F1D4373915B35E37000AF773 /* loanratesup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loanratesup.png; sourceTree = "<group>"; };
-		F1D4374515B36A1D000AF773 /* sendemail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sendemail.png; sourceTree = "<group>"; };
+		F1CD6365169F52B4006A35A4 /* Storyboard5.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard5.storyboard; path = "Hometown Bank Mobile/Storyboard5.storyboard"; sourceTree = "<group>"; };
 		F1F20F92159B45A9005B1AFB /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = "Hometown Bank Mobile/iTunesArtwork.png"; sourceTree = "<group>"; };
 		F1F20F93159B45A9005B1AFB /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "Hometown Bank Mobile/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		F1F20F9E159B461F005B1AFB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
@@ -126,6 +250,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1843D8C17735206005BD9B6 /* AddressBook.framework in Frameworks */,
 				F1F20FAB159B497C005B1AFB /* MessageUI.framework in Frameworks */,
 				F113214F158FFB0B00313A96 /* MapKit.framework in Frameworks */,
 				F113211A158FDFA500313A96 /* UIKit.framework in Frameworks */,
@@ -150,15 +275,21 @@
 		F113210A158FDFA500313A96 = {
 			isa = PBXGroup;
 			children = (
+				F11C0A23169CACC60098140B /* Default-Portrait@2x~ipad.png */,
+				F11C0A21169CAC160098140B /* Default-Portrait~ipad.png */,
+				F11C0A1F169CABE00098140B /* Default-568h@2x.png */,
+				F11C0A1B169CAB620098140B /* Default@2x.png */,
+				F11C0A19169CAB360098140B /* Default.png */,
+				F11C0A1D169CABCA0098140B /* Default-iphone5.png */,
 				F1F20F92159B45A9005B1AFB /* iTunesArtwork.png */,
 				F1F20F93159B45A9005B1AFB /* iTunesArtwork@2x.png */,
-				F13A35F1163723970052579D /* Default.png */,
-				F13A35F2163723970052579D /* Default@2x.png */,
 				F1F20FA8159B46E4005B1AFB /* Icon-72.png */,
 				F1F20FA6159B46D7005B1AFB /* Icon-72@2x.png */,
 				F1F20FA0159B4629005B1AFB /* Icon.png */,
 				F1F20F9E159B461F005B1AFB /* Icon@2x.png */,
 				F18CC84A163615DF00838B18 /* Storyboard.storyboard */,
+				F13A702A1699C2D00081DF1D /* Storyboard_iPad.storyboard */,
+				F1CD6365169F52B4006A35A4 /* Storyboard5.storyboard */,
 				F113211F158FDFA500313A96 /* Hometown Bank Mobile */,
 				F1132137158FDFA500313A96 /* Hometown Bank MobileTests */,
 				F1132118158FDFA500313A96 /* Frameworks */,
@@ -178,6 +309,7 @@
 		F1132118158FDFA500313A96 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1843D8B17735206005BD9B6 /* AddressBook.framework */,
 				F1F20FAA159B497C005B1AFB /* MessageUI.framework */,
 				F113214E158FFB0B00313A96 /* MapKit.framework */,
 				F1132119158FDFA500313A96 /* UIKit.framework */,
@@ -191,6 +323,8 @@
 		F113211F158FDFA500313A96 /* Hometown Bank Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				F1843D8717735099005BD9B6 /* MyLocation.h */,
+				F1843D8817735099005BD9B6 /* MyLocation.m */,
 				F15D1BA41591EF5900094589 /* SignInViewController.h */,
 				F15D1BA51591EF5900094589 /* SignInViewController.m */,
 				F15D1BAA1592026500094589 /* LoanRatesViewController.h */,
@@ -214,6 +348,12 @@
 		F1132120158FDFA500313A96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F11C09F6169C53CB0098140B /* Wildcard-1.mobileprovision */,
+				F11C09F4169C53BD0098140B /* ios_distribution-2.cer */,
+				F11C09F2169C52680098140B /* ios_development-1.cer */,
+				F12E6FFA16489DF500009E28 /* ios_distribution.cer */,
+				F12FFC9716489D7900D272A4 /* ios_development.cer */,
+				F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */,
 				F1132121158FDFA500313A96 /* Hometown Bank Mobile-Info.plist */,
 				F1132122158FDFA500313A96 /* InfoPlist.strings */,
 				F1132125158FDFA500313A96 /* main.m */,
@@ -241,23 +381,85 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F11C09C5169B8F810098140B /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				F11C0A11169C835A0098140B /* ipadMortgageRatesDown.png */,
+				F11C0A13169C835C0098140B /* ipadMortgageRatesUp.png */,
+				F11C09DC169B91340098140B /* ipadLoanRatesDown.png */,
+				F11C09DD169B91340098140B /* ipadLoanRatesUp.png */,
+				F11C09D8169B90DA0098140B /* ipadDepositRatesDown.png */,
+				F11C09D9169B90DA0098140B /* ipadDepositRatesUp.png */,
+				F11C09C6169B8FA60098140B /* ipadAccountSignOnDown.png */,
+				F11C09C7169B8FA60098140B /* ipadAccountSignOnUp.png */,
+				F11C09C8169B8FA60098140B /* ipadBranchLocationsDown.png */,
+				F11C09CA169B8FA60098140B /* ipadBranchLocationsUp.png */,
+				F11C09EA169C513A0098140B /* ipadSendEmailDown.png */,
+				F11C09EC169C513B0098140B /* ipadSendEmailUp.png */,
+				F11C09CB169B8FA60098140B /* ipadContactUsDown.png */,
+				F11C09CD169B8FA70098140B /* ipadContactUsUp.png */,
+				F11C0A14169C835E0098140B /* ipadMortgageRatesUp@2x.png */,
+				F11C0A12169C835B0098140B /* ipadMortgageRatesDown@2x.png */,
+				F11C09EB169C513A0098140B /* ipadSendEmailDown@2x.png */,
+				F11C09F0169C51BD0098140B /* ipadSendEmailUp@2x.png */,
+				F11C09CC169B8FA60098140B /* ipadContactUsDown@2x.png */,
+				F11C09CE169B8FA70098140B /* ipadContactUsUp@2x.png */,
+				F11C09E0169C48990098140B /* ipadAccountSignOnUp@2x.png */,
+				F11C09C11699D8C30098140B /* ipadAccountSignOnDown@2x.png */,
+				F11C09E2169C48AA0098140B /* ipadBranchLocationsUp@2x.png */,
+				F11C09B81699D86A0098140B /* ipadBranchLocationsDown@2x.png */,
+				F11C09BA1699D86A0098140B /* ipadDepositRatesDown@2x.png */,
+				F11C09E6169C49330098140B /* ipadDepositRatesUp@2x.png */,
+				F11C09E4169C48C10098140B /* ipadLoanRatesUp@2x.png */,
+				F11C09BB1699D86A0098140B /* ipadLoanRatesDown@2x.png */,
+			);
+			name = ipad;
+			sourceTree = "<group>";
+		};
+		F11C09F8169C78220098140B /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				F11C0A47169DA6DA0098140B /* iphoneBranchLocationsDown@2x.png */,
+				F11C0A48169DA6DA0098140B /* iphoneBranchLocationsUp@2x.png */,
+				F11C0A2F169DA3D40098140B /* iphoneAccountSignOnDown@2x.png */,
+				F11C0A30169DA3D40098140B /* iphoneAccountSignOnUp@2x.png */,
+				F11C0A32169DA3D40098140B /* iphoneContactUsDown@2x.png */,
+				F11C0A33169DA3D50098140B /* iphoneContactUsUp@2x.png */,
+				F11C0A34169DA3D50098140B /* iphoneDepositRatesDown@2x.png */,
+				F11C0A35169DA3D50098140B /* iphoneDepositRatesUp@2x.png */,
+				F11C0A36169DA3D70098140B /* iphoneMortgageRatesDown@2x.png */,
+				F11C0A37169DA3D70098140B /* iphoneMortgageRatesUp@2x.png */,
+				F11C0A38169DA3D70098140B /* iphoneSendEmailDown@2x.png */,
+				F11C0A39169DA3D70098140B /* iphoneSendEmailUp@2x.png */,
+				F11C0A29169CB1C70098140B /* iphoneMortgageRatesDown@2x.png */,
+				F11C0A2B169CB1C70098140B /* iphoneMortgageRatesUp@2x.png */,
+				F11C0A0F169C78FE0098140B /* iphoneContactUsDown.png */,
+				F11C09F9169C782E0098140B /* iphoneAccountSignOnDown.png */,
+				F11C09FA169C782E0098140B /* iphoneAccountSignOnUp.png */,
+				F11C09FB169C782E0098140B /* iphoneBranchLocationsDown.png */,
+				F11C09FC169C782E0098140B /* iphoneBranchLocationsUp.png */,
+				F11C09FD169C782E0098140B /* iphoneContactUsUp.png */,
+				F11C09FE169C782E0098140B /* iphoneDepositRatesDown.png */,
+				F11C09FF169C782E0098140B /* iphoneDepositRatesUp.png */,
+				F11C0A00169C782E0098140B /* iphoneMortgageRatesDown.png */,
+				F11C0A01169C782E0098140B /* iphoneMortgageRatesUp.png */,
+				F11C0A02169C782E0098140B /* iphoneSendEmailDown.png */,
+				F11C0A03169C782E0098140B /* iphoneSendEmailUp.png */,
+			);
+			name = iphone;
+			sourceTree = "<group>";
+		};
 		F1D4374015B363F6000AF773 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				F1D4374515B36A1D000AF773 /* sendemail.png */,
-				F1D4373815B35E37000AF773 /* loanratesdown.png */,
-				F13A35F6163723B80052579D /* logo2.png */,
-				F1D4373915B35E37000AF773 /* loanratesup.png */,
-				F1D4373415B35E2C000AF773 /* mortgageratesdown.png */,
-				F1D4373515B35E2C000AF773 /* mortgageratesup.png */,
-				F1D4373015B35E25000AF773 /* contactusdown.png */,
-				F1D4373115B35E25000AF773 /* contactusup.png */,
-				F1D4372C15B35E1F000AF773 /* branchesdown.png */,
-				F1D4372D15B35E1F000AF773 /* branchesup.png */,
-				F1D4372515B35A67000AF773 /* accountdown.png */,
-				F1D4372315B35972000AF773 /* accountup.png */,
-				F113214A158FEDE100313A96 /* logo.png */,
+				F11C09F8169C78220098140B /* iphone */,
+				F11C09E8169C4D770098140B /* FDIC.png */,
+				F11C0A45169DA5E80098140B /* Logo_Clear.png */,
+				F11C09C5169B8F810098140B /* ipad */,
 				F161AF4515976DC100312C05 /* arrow.png */,
+				F11C0A4B169DA8510098140B /* arrow@2x.png */,
+				F11C0A4D169DAAEA0098140B /* back_icon@2x.png */,
+				F11C0A4E169DAAEC0098140B /* forward_icon@2x.png */,
 				F161AF3E159295BB00312C05 /* back_icon.png */,
 				F161AF3F159295BB00312C05 /* forward_icon.png */,
 			);
@@ -311,7 +513,7 @@
 			attributes = {
 				CLASSPREFIX = Hometown;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Worcester State College";
+				ORGANIZATIONNAME = "Hometown Coop Bank";
 			};
 			buildConfigurationList = F113210F158FDFA500313A96 /* Build configuration list for PBXProject "Hometown Bank Mobile" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -337,7 +539,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1132124158FDFA500313A96 /* InfoPlist.strings in Resources */,
-				F113214B158FEDE100313A96 /* logo.png in Resources */,
 				F161AF40159295BB00312C05 /* back_icon.png in Resources */,
 				F161AF41159295BB00312C05 /* forward_icon.png in Resources */,
 				F161AF4615976DC100312C05 /* arrow.png in Resources */,
@@ -347,21 +548,77 @@
 				F1F20FA1159B4629005B1AFB /* Icon.png in Resources */,
 				F1F20FA7159B46D7005B1AFB /* Icon-72@2x.png in Resources */,
 				F1F20FA9159B46E4005B1AFB /* Icon-72.png in Resources */,
-				F1D4372415B35972000AF773 /* accountup.png in Resources */,
-				F1D4372615B35A67000AF773 /* accountdown.png in Resources */,
-				F1D4372E15B35E1F000AF773 /* branchesdown.png in Resources */,
-				F1D4372F15B35E1F000AF773 /* branchesup.png in Resources */,
-				F1D4373215B35E25000AF773 /* contactusdown.png in Resources */,
-				F1D4373315B35E25000AF773 /* contactusup.png in Resources */,
-				F1D4373615B35E2C000AF773 /* mortgageratesdown.png in Resources */,
-				F1D4373715B35E2C000AF773 /* mortgageratesup.png in Resources */,
-				F1D4373A15B35E37000AF773 /* loanratesdown.png in Resources */,
-				F1D4373B15B35E37000AF773 /* loanratesup.png in Resources */,
-				F1D4374615B36A1D000AF773 /* sendemail.png in Resources */,
 				F18CC84B163615DF00838B18 /* Storyboard.storyboard in Resources */,
-				F13A35F3163723970052579D /* Default.png in Resources */,
-				F13A35F4163723970052579D /* Default@2x.png in Resources */,
-				F13A35F7163723B80052579D /* logo2.png in Resources */,
+				F12FFC9516489D6D00D272A4 /* Wildcard.mobileprovision in Resources */,
+				F12FFC9816489D7900D272A4 /* ios_development.cer in Resources */,
+				F12E6FFB16489DF500009E28 /* ios_distribution.cer in Resources */,
+				F13A702B1699C2D00081DF1D /* Storyboard_iPad.storyboard in Resources */,
+				F11C09BD1699D86A0098140B /* ipadBranchLocationsDown@2x.png in Resources */,
+				F11C09BF1699D86A0098140B /* ipadDepositRatesDown@2x.png in Resources */,
+				F11C09C01699D86A0098140B /* ipadLoanRatesDown@2x.png in Resources */,
+				F11C09C21699D8C30098140B /* ipadAccountSignOnDown@2x.png in Resources */,
+				F11C09CF169B8FA70098140B /* ipadAccountSignOnDown.png in Resources */,
+				F11C09D0169B8FA70098140B /* ipadAccountSignOnUp.png in Resources */,
+				F11C09D1169B8FA70098140B /* ipadBranchLocationsDown.png in Resources */,
+				F11C09D3169B8FA70098140B /* ipadBranchLocationsUp.png in Resources */,
+				F11C09D4169B8FA70098140B /* ipadContactUsDown.png in Resources */,
+				F11C09D5169B8FA70098140B /* ipadContactUsDown@2x.png in Resources */,
+				F11C09D6169B8FA70098140B /* ipadContactUsUp.png in Resources */,
+				F11C09D7169B8FA70098140B /* ipadContactUsUp@2x.png in Resources */,
+				F11C09DA169B90DA0098140B /* ipadDepositRatesDown.png in Resources */,
+				F11C09DB169B90DA0098140B /* ipadDepositRatesUp.png in Resources */,
+				F11C09DE169B91340098140B /* ipadLoanRatesDown.png in Resources */,
+				F11C09DF169B91340098140B /* ipadLoanRatesUp.png in Resources */,
+				F11C09E1169C48990098140B /* ipadAccountSignOnUp@2x.png in Resources */,
+				F11C09E3169C48AA0098140B /* ipadBranchLocationsUp@2x.png in Resources */,
+				F11C09E5169C48C10098140B /* ipadLoanRatesUp@2x.png in Resources */,
+				F11C09E7169C49330098140B /* ipadDepositRatesUp@2x.png in Resources */,
+				F11C09E9169C4D780098140B /* FDIC.png in Resources */,
+				F11C09ED169C513C0098140B /* ipadSendEmailDown.png in Resources */,
+				F11C09EE169C513C0098140B /* ipadSendEmailDown@2x.png in Resources */,
+				F11C09EF169C513C0098140B /* ipadSendEmailUp.png in Resources */,
+				F11C09F1169C51BD0098140B /* ipadSendEmailUp@2x.png in Resources */,
+				F11C0A04169C782E0098140B /* iphoneAccountSignOnDown.png in Resources */,
+				F11C0A05169C782E0098140B /* iphoneAccountSignOnUp.png in Resources */,
+				F11C0A06169C782E0098140B /* iphoneBranchLocationsDown.png in Resources */,
+				F11C0A07169C782E0098140B /* iphoneBranchLocationsUp.png in Resources */,
+				F11C0A08169C782E0098140B /* iphoneContactUsUp.png in Resources */,
+				F11C0A09169C782E0098140B /* iphoneDepositRatesDown.png in Resources */,
+				F11C0A0A169C782E0098140B /* iphoneDepositRatesUp.png in Resources */,
+				F11C0A0B169C782E0098140B /* iphoneMortgageRatesDown.png in Resources */,
+				F11C0A0C169C782E0098140B /* iphoneMortgageRatesUp.png in Resources */,
+				F11C0A0D169C782E0098140B /* iphoneSendEmailDown.png in Resources */,
+				F11C0A0E169C782E0098140B /* iphoneSendEmailUp.png in Resources */,
+				F11C0A10169C78FE0098140B /* iphoneContactUsDown.png in Resources */,
+				F11C0A15169C835F0098140B /* ipadMortgageRatesDown.png in Resources */,
+				F11C0A16169C835F0098140B /* ipadMortgageRatesDown@2x.png in Resources */,
+				F11C0A17169C835F0098140B /* ipadMortgageRatesUp.png in Resources */,
+				F11C0A18169C835F0098140B /* ipadMortgageRatesUp@2x.png in Resources */,
+				F11C0A1E169CABCB0098140B /* Default-iphone5.png in Resources */,
+				F11C0A20169CABE00098140B /* Default-568h@2x.png in Resources */,
+				F11C0A22169CAC160098140B /* Default-Portrait~ipad.png in Resources */,
+				F11C0A24169CACC60098140B /* Default-Portrait@2x~ipad.png in Resources */,
+				F11C0A27169CAD970098140B /* Default.png in Resources */,
+				F11C0A28169CAD9F0098140B /* Default@2x.png in Resources */,
+				F11C0A2C169CB1C80098140B /* iphoneMortgageRatesDown@2x.png in Resources */,
+				F11C0A2E169CB1C80098140B /* iphoneMortgageRatesUp@2x.png in Resources */,
+				F11C0A3A169DA3D70098140B /* iphoneAccountSignOnDown@2x.png in Resources */,
+				F11C0A3B169DA3D70098140B /* iphoneAccountSignOnUp@2x.png in Resources */,
+				F11C0A3D169DA3D70098140B /* iphoneContactUsDown@2x.png in Resources */,
+				F11C0A3E169DA3D70098140B /* iphoneContactUsUp@2x.png in Resources */,
+				F11C0A3F169DA3D70098140B /* iphoneDepositRatesDown@2x.png in Resources */,
+				F11C0A40169DA3D70098140B /* iphoneDepositRatesUp@2x.png in Resources */,
+				F11C0A41169DA3D70098140B /* iphoneMortgageRatesDown@2x.png in Resources */,
+				F11C0A42169DA3D70098140B /* iphoneMortgageRatesUp@2x.png in Resources */,
+				F11C0A43169DA3D70098140B /* iphoneSendEmailDown@2x.png in Resources */,
+				F11C0A44169DA3D70098140B /* iphoneSendEmailUp@2x.png in Resources */,
+				F11C0A46169DA5EA0098140B /* Logo_Clear.png in Resources */,
+				F11C0A49169DA6DB0098140B /* iphoneBranchLocationsDown@2x.png in Resources */,
+				F11C0A4A169DA6DB0098140B /* iphoneBranchLocationsUp@2x.png in Resources */,
+				F11C0A4C169DA8520098140B /* arrow@2x.png in Resources */,
+				F11C0A4F169DAAEF0098140B /* back_icon@2x.png in Resources */,
+				F11C0A50169DAAEF0098140B /* forward_icon@2x.png in Resources */,
+				F1CD6366169F52B4006A35A4 /* Storyboard5.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +627,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F113213C158FDFA500313A96 /* InfoPlist.strings in Resources */,
+				F12FFC9616489D6D00D272A4 /* Wildcard.mobileprovision in Resources */,
+				F12FFC9916489D7900D272A4 /* ios_development.cer in Resources */,
+				F12E6FFC16489DF500009E28 /* ios_distribution.cer in Resources */,
+				F11C09F3169C52680098140B /* ios_development-1.cer in Resources */,
+				F11C09F5169C53BD0098140B /* ios_distribution-2.cer in Resources */,
+				F11C09F7169C53CB0098140B /* Wildcard-1.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +667,7 @@
 				F1FB7E7715920FEB00888E8B /* BranchesViewController.m in Sources */,
 				F161AF351592640000312C05 /* ContactUsViewController.m in Sources */,
 				F1F20FAE159BD97F005B1AFB /* HometownViewController.m in Sources */,
+				F1843D8917735099005BD9B6 /* MyLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +715,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -466,6 +731,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -477,6 +743,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -486,6 +753,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -495,11 +763,14 @@
 		F1132143158FDFA500313A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Forkey (K8W7X7L866)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
 				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "51998F7F-3AE5-41DE-8134-CB63D4FD1FD4";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -507,11 +778,14 @@
 		F1132144158FDFA500313A96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Forkey (K8W7X7L866)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
 				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "51998F7F-3AE5-41DE-8134-CB63D4FD1FD4";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

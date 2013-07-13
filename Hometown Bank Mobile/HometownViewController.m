@@ -43,7 +43,7 @@
 
 -(IBAction) fullWebsite {
     
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://m.hometowncoop.com"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"https://www.hometowncoop.com/indexfull.htm"]];
     
 }
 @end
