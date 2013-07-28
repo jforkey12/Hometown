@@ -43,9 +43,6 @@
 		F11C09EE169C513C0098140B /* ipadSendEmailDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09EB169C513A0098140B /* ipadSendEmailDown@2x.png */; };
 		F11C09EF169C513C0098140B /* ipadSendEmailUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09EC169C513B0098140B /* ipadSendEmailUp.png */; };
 		F11C09F1169C51BD0098140B /* ipadSendEmailUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F0169C51BD0098140B /* ipadSendEmailUp@2x.png */; };
-		F11C09F3169C52680098140B /* ios_development-1.cer in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F2169C52680098140B /* ios_development-1.cer */; };
-		F11C09F5169C53BD0098140B /* ios_distribution-2.cer in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F4169C53BD0098140B /* ios_distribution-2.cer */; };
-		F11C09F7169C53CB0098140B /* Wildcard-1.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F6169C53CB0098140B /* Wildcard-1.mobileprovision */; };
 		F11C0A04169C782E0098140B /* iphoneAccountSignOnDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09F9169C782E0098140B /* iphoneAccountSignOnDown.png */; };
 		F11C0A05169C782E0098140B /* iphoneAccountSignOnUp.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FA169C782E0098140B /* iphoneAccountSignOnUp.png */; };
 		F11C0A06169C782E0098140B /* iphoneBranchLocationsDown.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C09FB169C782E0098140B /* iphoneBranchLocationsDown.png */; };
@@ -76,8 +73,6 @@
 		F11C0A3E169DA3D70098140B /* iphoneContactUsUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A33169DA3D50098140B /* iphoneContactUsUp@2x.png */; };
 		F11C0A3F169DA3D70098140B /* iphoneDepositRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A34169DA3D50098140B /* iphoneDepositRatesDown@2x.png */; };
 		F11C0A40169DA3D70098140B /* iphoneDepositRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A35169DA3D50098140B /* iphoneDepositRatesUp@2x.png */; };
-		F11C0A41169DA3D70098140B /* iphoneMortgageRatesDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A36169DA3D70098140B /* iphoneMortgageRatesDown@2x.png */; };
-		F11C0A42169DA3D70098140B /* iphoneMortgageRatesUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A37169DA3D70098140B /* iphoneMortgageRatesUp@2x.png */; };
 		F11C0A43169DA3D70098140B /* iphoneSendEmailDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A38169DA3D70098140B /* iphoneSendEmailDown@2x.png */; };
 		F11C0A44169DA3D70098140B /* iphoneSendEmailUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A39169DA3D70098140B /* iphoneSendEmailUp@2x.png */; };
 		F11C0A46169DA5EA0098140B /* Logo_Clear.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A45169DA5E80098140B /* Logo_Clear.png */; };
@@ -86,13 +81,9 @@
 		F11C0A4C169DA8520098140B /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A4B169DA8510098140B /* arrow@2x.png */; };
 		F11C0A4F169DAAEF0098140B /* back_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A4D169DAAEA0098140B /* back_icon@2x.png */; };
 		F11C0A50169DAAEF0098140B /* forward_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F11C0A4E169DAAEC0098140B /* forward_icon@2x.png */; };
-		F12E6FFB16489DF500009E28 /* ios_distribution.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12E6FFA16489DF500009E28 /* ios_distribution.cer */; };
-		F12E6FFC16489DF500009E28 /* ios_distribution.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12E6FFA16489DF500009E28 /* ios_distribution.cer */; };
-		F12FFC9516489D6D00D272A4 /* Wildcard.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */; };
-		F12FFC9616489D6D00D272A4 /* Wildcard.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */; };
-		F12FFC9816489D7900D272A4 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9716489D7900D272A4 /* ios_development.cer */; };
-		F12FFC9916489D7900D272A4 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = F12FFC9716489D7900D272A4 /* ios_development.cer */; };
 		F13A702B1699C2D00081DF1D /* Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13A702A1699C2D00081DF1D /* Storyboard_iPad.storyboard */; };
+		F14ED13217A5471700341023 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = F14ED13117A5471700341023 /* ios_development.cer */; };
+		F14ED13317A5471700341023 /* ios_development.cer in Resources */ = {isa = PBXBuildFile; fileRef = F14ED13117A5471700341023 /* ios_development.cer */; };
 		F15D1BA61591EF5900094589 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BA51591EF5900094589 /* SignInViewController.m */; };
 		F15D1BA91591FFAF00094589 /* MortgageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BA81591FFAF00094589 /* MortgageViewController.m */; };
 		F15D1BAC1592026500094589 /* LoanRatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F15D1BAB1592026500094589 /* LoanRatesViewController.m */; };
@@ -168,9 +159,6 @@
 		F11C09EB169C513A0098140B /* ipadSendEmailDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadSendEmailDown@2x.png"; sourceTree = "<group>"; };
 		F11C09EC169C513B0098140B /* ipadSendEmailUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipadSendEmailUp.png; sourceTree = "<group>"; };
 		F11C09F0169C51BD0098140B /* ipadSendEmailUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipadSendEmailUp@2x.png"; sourceTree = "<group>"; };
-		F11C09F2169C52680098140B /* ios_development-1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios_development-1.cer"; sourceTree = "<group>"; };
-		F11C09F4169C53BD0098140B /* ios_distribution-2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ios_distribution-2.cer"; sourceTree = "<group>"; };
-		F11C09F6169C53CB0098140B /* Wildcard-1.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Wildcard-1.mobileprovision"; sourceTree = "<group>"; };
 		F11C09F9169C782E0098140B /* iphoneAccountSignOnDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneAccountSignOnDown.png; sourceTree = "<group>"; };
 		F11C09FA169C782E0098140B /* iphoneAccountSignOnUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneAccountSignOnUp.png; sourceTree = "<group>"; };
 		F11C09FB169C782E0098140B /* iphoneBranchLocationsDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphoneBranchLocationsDown.png; sourceTree = "<group>"; };
@@ -211,11 +199,9 @@
 		F11C0A4B169DA8510098140B /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		F11C0A4D169DAAEA0098140B /* back_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_icon@2x.png"; sourceTree = "<group>"; };
 		F11C0A4E169DAAEC0098140B /* forward_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward_icon@2x.png"; sourceTree = "<group>"; };
-		F12E6FFA16489DF500009E28 /* ios_distribution.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_distribution.cer; sourceTree = "<group>"; };
-		F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wildcard.mobileprovision; sourceTree = "<group>"; };
-		F12FFC9716489D7900D272A4 /* ios_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_development.cer; sourceTree = "<group>"; };
 		F13A702A1699C2D00081DF1D /* Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Storyboard_iPad.storyboard; path = "Hometown Bank Mobile/Storyboard_iPad.storyboard"; sourceTree = "<group>"; };
 		F13E0D1D15B30FDB00CCEA9C /* HometownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HometownAppDelegate.m; sourceTree = "<group>"; };
+		F14ED13117A5471700341023 /* ios_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = ios_development.cer; sourceTree = "<group>"; };
 		F15D1BA41591EF5900094589 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
 		F15D1BA51591EF5900094589 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		F15D1BA71591FFAF00094589 /* MortgageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MortgageViewController.h; sourceTree = "<group>"; };
@@ -348,12 +334,7 @@
 		F1132120158FDFA500313A96 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F11C09F6169C53CB0098140B /* Wildcard-1.mobileprovision */,
-				F11C09F4169C53BD0098140B /* ios_distribution-2.cer */,
-				F11C09F2169C52680098140B /* ios_development-1.cer */,
-				F12E6FFA16489DF500009E28 /* ios_distribution.cer */,
-				F12FFC9716489D7900D272A4 /* ios_development.cer */,
-				F12FFC9416489D6D00D272A4 /* Wildcard.mobileprovision */,
+				F14ED13117A5471700341023 /* ios_development.cer */,
 				F1132121158FDFA500313A96 /* Hometown Bank Mobile-Info.plist */,
 				F1132122158FDFA500313A96 /* InfoPlist.strings */,
 				F1132125158FDFA500313A96 /* main.m */,
@@ -512,7 +493,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Hometown;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Hometown Coop Bank";
 			};
 			buildConfigurationList = F113210F158FDFA500313A96 /* Build configuration list for PBXProject "Hometown Bank Mobile" */;
@@ -549,9 +530,6 @@
 				F1F20FA7159B46D7005B1AFB /* Icon-72@2x.png in Resources */,
 				F1F20FA9159B46E4005B1AFB /* Icon-72.png in Resources */,
 				F18CC84B163615DF00838B18 /* Storyboard.storyboard in Resources */,
-				F12FFC9516489D6D00D272A4 /* Wildcard.mobileprovision in Resources */,
-				F12FFC9816489D7900D272A4 /* ios_development.cer in Resources */,
-				F12E6FFB16489DF500009E28 /* ios_distribution.cer in Resources */,
 				F13A702B1699C2D00081DF1D /* Storyboard_iPad.storyboard in Resources */,
 				F11C09BD1699D86A0098140B /* ipadBranchLocationsDown@2x.png in Resources */,
 				F11C09BF1699D86A0098140B /* ipadDepositRatesDown@2x.png in Resources */,
@@ -608,8 +586,6 @@
 				F11C0A3E169DA3D70098140B /* iphoneContactUsUp@2x.png in Resources */,
 				F11C0A3F169DA3D70098140B /* iphoneDepositRatesDown@2x.png in Resources */,
 				F11C0A40169DA3D70098140B /* iphoneDepositRatesUp@2x.png in Resources */,
-				F11C0A41169DA3D70098140B /* iphoneMortgageRatesDown@2x.png in Resources */,
-				F11C0A42169DA3D70098140B /* iphoneMortgageRatesUp@2x.png in Resources */,
 				F11C0A43169DA3D70098140B /* iphoneSendEmailDown@2x.png in Resources */,
 				F11C0A44169DA3D70098140B /* iphoneSendEmailUp@2x.png in Resources */,
 				F11C0A46169DA5EA0098140B /* Logo_Clear.png in Resources */,
@@ -619,6 +595,7 @@
 				F11C0A4F169DAAEF0098140B /* back_icon@2x.png in Resources */,
 				F11C0A50169DAAEF0098140B /* forward_icon@2x.png in Resources */,
 				F1CD6366169F52B4006A35A4 /* Storyboard5.storyboard in Resources */,
+				F14ED13217A5471700341023 /* ios_development.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,12 +604,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F113213C158FDFA500313A96 /* InfoPlist.strings in Resources */,
-				F12FFC9616489D6D00D272A4 /* Wildcard.mobileprovision in Resources */,
-				F12FFC9916489D7900D272A4 /* ios_development.cer in Resources */,
-				F12E6FFC16489DF500009E28 /* ios_distribution.cer in Resources */,
-				F11C09F3169C52680098140B /* ios_development-1.cer in Resources */,
-				F11C09F5169C53BD0098140B /* ios_distribution-2.cer in Resources */,
-				F11C09F7169C53CB0098140B /* Wildcard-1.mobileprovision in Resources */,
+				F14ED13317A5471700341023 /* ios_development.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,7 +702,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -751,7 +723,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -763,13 +735,13 @@
 		F1132143158FDFA500313A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: James Forkey (K8W7X7L866)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
 				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "51998F7F-3AE5-41DE-8134-CB63D4FD1FD4";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -778,13 +750,13 @@
 		F1132144158FDFA500313A96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: James Forkey (K8W7X7L866)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Hometown Bank Mobile/Hometown Bank Mobile-Prefix.pch";
 				INFOPLIST_FILE = "Hometown Bank Mobile/Hometown Bank Mobile-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "51998F7F-3AE5-41DE-8134-CB63D4FD1FD4";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

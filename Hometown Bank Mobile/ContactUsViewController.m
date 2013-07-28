@@ -50,9 +50,10 @@
         [mailComposer setToRecipients:[NSArray arrayWithObjects:@"customerserv@hometowncoop.com", nil]];
         [mailComposer setSubject:@""];
         [mailComposer setMessageBody:@"" isHTML:NO]; [mailComposer setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
-//        [self presentModalViewController:mailComposer animated:YES];
+
         if([self respondsToSelector:@selector(presentViewController:animated:completion:)])
             [self presentViewController:mailComposer animated:YES completion:^{/* done */}];
+        
         else
             [self presentModalViewController:mailComposer animated:YES];
     } 

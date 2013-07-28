@@ -6,8 +6,15 @@
 //  Copyright (c) 2012 Worcester State College. All rights reserved.
 //
 
+//
+//  BranchesViewController.m
+//  Hometown Bank Mobile
+//
+//  Created by James Forkey on 6/20/12.
+//  Copyright (c) 2012 Worcester State College. All rights reserved.
+//
+
 #import "BranchesViewController.h"
-#import "MyLocation.h"
 
 @interface BranchesViewController ()
 
@@ -36,9 +43,10 @@
     CLLocationCoordinate2D sLancasterBranch;
     CLLocationCoordinate2D sturbridgeBranch;
     CLLocationCoordinate2D websterBranch;
+    CLLocationCoordinate2D websterConvCenter;
     CLLocationCoordinate2D auburnBranch;
-    CLLocationCoordinate2D WebsterConvCenter;
     CLLocationCoordinate2D centerPoint;
+
     
     mapView.showsUserLocation = YES;
     mapView.mapType = MKMapTypeStandard;
@@ -53,33 +61,21 @@
     sturbridgeBranch.longitude = -72.11700439453125;
     websterBranch.latitude = 42.049388241412856;
     websterBranch.longitude = -71.88296556472778;
-    WebsterConvCenter.latitude = 42.055594;
-    WebsterConvCenter.longitude = -71.870742;
+    websterConvCenter.latitude = 42.055594;
+    websterConvCenter.longitude = -71.870742;
     auburnBranch.latitude = 42.19075435955535;
     auburnBranch.longitude = -71.84601545333862;
     centerPoint.latitude = 42.351059441067235;
     centerPoint.longitude = -71.86307430267334;
     
+    
     MKPointAnnotation *annotationPoint = [[MKPointAnnotation alloc] init];
     annotationPoint.coordinate = atholBranch;
     annotationPoint.title = @"Athol Branch";
     annotationPoint.subtitle = @"90 Exchange St, Athol, MA";
-       MyLocation *annotation1 = [[MyLocation alloc] initWithName:@"BANKDESCRIPTION" address:@"address" coordinate:annotationPoint.coordinate];
-    [mapView addAnnotation:annotation1];
+    [mapView addAnnotation:annotationPoint];
     
-    
-//    MKPlacemark* place = [[MKPlacemark alloc] initWithCoordinate: atholBranch addressDictionary: nil];
-//    MKMapItem* destination = [[MKMapItem alloc] initWithPlacemark: place];
-//    destination.name = @"Athol Branch";
-//    MKDirectionsRequest
-//    NSArray* items = [[NSArray alloc] initWithObjects: destination, nil];
-//    NSDictionary* options = [[NSDictionary alloc] initWithObjectsAndKeys:
-//                             MKLaunchOptionsDirectionsModeDriving,
-//                             MKLaunchOptionsDirectionsModeKey, nil];
-//    [MKMapItem openMapsWithItems:items launchOptions: options];
-//    if ([destination respondsToSelector:@selector(openMapsWithItems: items launchOptions:options)]){}
 
-    
     MKPointAnnotation *annotationPoint2 = [[MKPointAnnotation alloc] init];
     annotationPoint2.coordinate = oxfordBranch;
     annotationPoint2.title = @"Oxford Branch";
@@ -105,7 +101,7 @@
     [mapView addAnnotation:annotationPoint5];
     
     MKPointAnnotation *annotationPoint7 = [[MKPointAnnotation alloc] init];
-    annotationPoint5.coordinate = WebsterConvCenter;
+    annotationPoint5.coordinate = websterConvCenter;
     annotationPoint5.title = @"Webster Branch";
     annotationPoint5.subtitle = @"4 Grove Rd, Webster, MA";
     [mapView addAnnotation:annotationPoint7];
@@ -117,27 +113,54 @@
     [mapView addAnnotation:annotationPoint6];
     
     [branchesScrollView setScrollEnabled:YES];
-    [branchesScrollView setContentSize:CGSizeMake(320,1130)];
+    [branchesScrollView setContentSize:CGSizeMake(320,1325)];
     
     self.mapView.region = MKCoordinateRegionMakeWithDistance(centerPoint, 70000, 120000);
     
-}
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context 
-{       
-    MKCoordinateRegion region;
-    region.center = self.mapView.userLocation.coordinate;  
     
-    MKCoordinateSpan span; 
-    span.latitudeDelta  = .5; 
-    span.longitudeDelta = .5; 
+}
+
+- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
+{
+    if ([annotation isKindOfClass:[MKUserLocation class]])
+        return nil;
+    
+    MKAnnotationView* annotationView = [[MKPinAnnotationView alloc] initWithAnnotation:annotation
+                                                                       reuseIdentifier:@"MyCustomAnnotation"];
+    
+    annotationView.canShowCallout = YES;
+    annotationView.rightCalloutAccessoryView = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+    
+    return annotationView;
+}
+
+- (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control
+{
+    id <MKAnnotation> annotation = view.annotation;
+    CLLocationCoordinate2D coordinate = [annotation coordinate];
+    MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:coordinate addressDictionary:nil];
+    MKMapItem *mapitem = [[MKMapItem alloc] initWithPlacemark:placemark];
+    mapitem.name = annotation.title;
+    [mapitem openInMapsWithLaunchOptions:@{MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving}];
+
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    MKCoordinateRegion region;
+    region.center = self.mapView.userLocation.coordinate;
+    
+    MKCoordinateSpan span;
+    span.latitudeDelta  = .5;
+    span.longitudeDelta = .5;
     region.span = span;
     
     [self.mapView setRegion:region animated:YES];
 }
-- (void)dealloc 
+- (void)dealloc
 {
-   // [self.mapView.userLocation removeObserver:self forKeyPath:@"location"];
-    [self.mapView removeFromSuperview]; 
+    // [self.mapView.userLocation removeObserver:self forKeyPath:@"location"];
+    [self.mapView removeFromSuperview];
     self.mapView = nil;
     
 }
@@ -160,7 +183,7 @@
 	self.mapView.mapType=MKMapTypeStandard;
 	self.mapView.showsUserLocation = YES;
     [self.mapView setRegion:region animated:YES];
-	
+    
     //Creates a 2D coordinate and sets it to the user's current lat/long
     //Centers the map to those coordinates and zooms to an appropriate level.
     //You can play with the numbers depending on what zoom level you want.
@@ -169,33 +192,12 @@
 	userLoc.latitude = self.mapView.userLocation.location.coordinate.latitude;
 	userLoc.longitude = self.mapView.userLocation.location.coordinate.longitude;
 	self.mapView.region = MKCoordinateRegionMakeWithDistance(userLoc, .5, .5);
-	
+    
 }
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
-   
+    
     self.mapView.centerCoordinate = userLocation.location.coordinate;
-}
-
-- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation {
-    
-    static NSString *identifier = @"MyLocation";   
-    if ([annotation isKindOfClass:[MyLocation class]]) {
-        
-        MKAnnotationView *annotationView = (MKAnnotationView *) [mapView dequeueReusableAnnotationViewWithIdentifier:identifier];
-        if (annotationView == nil) {
-            annotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:identifier];
-            annotationView.enabled = YES;
-            annotationView.canShowCallout = YES;
-//            annotationView.image = [UIImage imageNamed:@"arrest.png"];//here we use a nice image instead of the default pins
-        } else {
-            annotationView.annotation = annotation;
-        }
-        
-        return annotationView;
-    }
-    
-    return nil;    
 }
 
 @end
